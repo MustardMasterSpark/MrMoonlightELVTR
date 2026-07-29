@@ -1,0 +1,94 @@
+{
+  "game": "Mr. Moonlight",
+  "developer": "Carlos Ivan Calva Avalos",
+  "engine": "Unity 6.3 LTS",
+  "genre": "First-person survival horror with exploration and slow, heavy combat",
+  "setting": {
+    "year": 1978,
+    "place": "Remote island off the coast of Alaska",
+    "premise": "A weeklong camping trip goes wrong. The player is Tracey, an addict trying to save her kidnapped friends from a cult that will sacrifice them at the end of the week. Each night the island's terrain reshapes and the player must reach shelter before 3 a.m.",
+    "cultural_layer": "Orthodox Christian iconography from the first Russian settlers of Alaska, overlaid with pagan and demonic symbolism"
+  },
+  "art_direction": {
+    "reference": "5th console generation (PS1 / N64) low poly",
+    "silhouettes": "Simple models, strongly defined silhouettes so enemies are readable in darkness",
+    "palette": "Cold, high contrast. Green, grey, brown. Punk / grunge / acid accents",
+    "textures": "Pixelated, low resolution"
+  },
+  "design_pillars": [
+    "Combat is crude, slow and heavy. Every fight is a decision, not a reflex.",
+    "Sound carries information. Enemies are identified by audio signature before they are seen.",
+    "Show, do not tell. Narrative arrives through sparse dialogue and environment, never exposition.",
+    "Darkness is claustrophobic. Light sources are limited and consumable.",
+    "Inventory is constrained. Carrying one thing means not carrying another."
+  ],
+  "existing_enemy_archetypes": {
+    "Wolf": {
+      "movement": "Roams the island freely, usually in packs",
+      "attack": "Circles the player, then closes in with bites",
+      "defense": "Breaks off and returns to circling when struck. Flees and resumes roaming if damaged enough"
+    },
+    "Stone totem": {
+      "movement": "Static while observed. Closes distance only when the player looks away. Placed near altars or standing water",
+      "attack": "Passive aura. Player speed and stamina drop with proximity",
+      "defense": "None. Breaks after a few hits"
+    },
+    "Furman": {
+      "movement": "Found sleeping or roaming in plains and forest",
+      "attack": "Berserker charge into heavy bites. The charge itself induces fear",
+      "defense": "No tactics, high health. Heavy blows stun it for several seconds"
+    },
+    "Cultist (Priest)": {
+      "movement": "Stays near altars and fires. Can be summoned by spotters",
+      "attack": "Crossbow and poisoned blowdarts that induce hallucination",
+      "defense": "Fights at range. Repositions in a zigzag when attacked if allies are nearby"
+    },
+    "Cultist (Zealot)": {
+      "movement": "Quiet, black attire, hides in darkness. Moves only when unobserved, then charges once spotted",
+      "attack": "Knives, scythes, Molotovs. Fatal from behind",
+      "defense": "Low health. Stealth is its defense"
+    },
+    "Cultist (Spotter)": {
+      "movement": "Patrols cautiously with lamps, or gathers at altars and buildings",
+      "attack": "Shotgun or club. Whistle or flare gun alerts and spawns reinforcements",
+      "defense": "Unremarkable"
+    }
+  },
+  "day_one_roster": [
+    "Wolf",
+    "Bear trap",
+    "Cultist (Spotter)",
+    "Cultist (Zealot)",
+    "Cultist (Priest)",
+    "Furman"
+  ],
+  "player_state_systems": [
+    "health",
+    "stamina",
+    "fear",
+    "hallucination",
+    "inventory weight"
+  ],
+  "hard_constraints": [
+    "Nothing may reference technology that did not exist in 1978. No digital displays, no electronics beyond period radios, lamps, flashlights and telescopes.",
+    "No enemy may have a ranged instant-kill. Combat must always leave the player a decision.",
+    "Enemy behaviour must be expressible as a finite state machine over: idle, perceive, pursue, attack, recover, lose target, die.",
+    "No new enemy archetype family may be invented. New entities must be a variant of an existing archetype or an environmental hazard.",
+    "Every entity must be readable by silhouette and by audio signature alone.",
+    "Item names and flavour text use plain, period-appropriate American English. No fantasy nomenclature."
+  ],
+  "day_one_scene_list": [
+    "01 Waking at the campsite",
+    "02 The missing boots",
+    "03 Radio conversation with Rylee",
+    "04 Will's tent and the compass",
+    "05 The forest road to the Glade",
+    "06 The empty Glade",
+    "07 The road to Vernon's cabin",
+    "08 Vernon's cabin [unfinished]",
+    "09 The mine [unfinished]",
+    "10 The night escape [unfinished]"
+  ],
+  "dialogue_presentation": "Plain white subtitles in the style of the early Silent Hill games. Sparse. Never expository.",
+  "objective_ui": "The current objective appears in the pause menu on a psychiatric intake form titled \"How are you feeling today?\" with a smiley face."
+}

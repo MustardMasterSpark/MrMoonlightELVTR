@@ -1,0 +1,57 @@
+[00:01:14] START     Day 1 Slice Compiler — backend=fixtures
+[00:01:14] SOURCE    SCRIPT.txt
+[00:01:14] PARSE     224 events across 10 scenes, 3 unfinished
+[00:01:14] WRITE     00_events
+[00:01:14] WRITE     subtitles
+[00:01:14] WRITE     canon
+[00:01:14] WRITE     budget
+[00:01:14] DISPATCH  Scenographer (claude-sonnet-5)
+[00:01:14] TOKENS    Scenographer: 0 in / 0 out
+[00:01:14] GATE      01_requirements schema valid. 216 requirements, 224 event labels.
+[00:01:14] WRITE     01_requirements
+[00:01:14] LABELS    224 of 224 events labelled by the agent, remainder filled deterministically from event text
+[00:01:14] DISPATCH  Quartermaster (via claude)
+[00:01:14] TOKENS    Quartermaster: 0 in / 0 out
+[00:01:14] GATE      02_asset_manifest schema valid on attempt 1.
+[00:01:14] WRITE     02_asset_manifest
+[00:01:14] MANIFEST  8 unique assets: {'budgeted': 7, 'unbudgeted': 1}
+[00:01:14] FILTER    1 of 8 assets are kind 'animation' (selected in Python, not by a model)
+[00:01:14] DISPATCH  Animation director (via claude)
+[00:01:14] TOKENS    Animation director: 0 in / 0 out
+[00:01:14] GATE      03_animation_list schema valid on attempt 1.
+[00:01:14] WRITE     03_animation_list
+[00:01:14] ANIMATION 1 clips across 1 capture sessions
+[00:01:14] DISPATCH  Sequencer (via claude)
+[00:01:14] TOKENS    Sequencer: 0 in / 0 out
+[00:01:14] GATE      Graph validation found 3 discrepancy(ies)
+[00:01:14] GATE        - Script event EVT-172 is an OBJECTIVE:END that no objective claims.
+[00:01:14] GATE        - Script event EVT-087 is an OBJECTIVE:UPDATE that no objective claims.
+[00:01:14] GATE        - Script event EVT-125 is an OBJECTIVE:UPDATE that no objective claims.
+[00:01:14] RETRY     Re-dispatching Sequencer with discrepancies.
+[00:01:14] DISPATCH  Sequencer (via claude)
+[00:01:14] TOKENS    Sequencer: 0 in / 0 out
+[00:01:14] GATE      Graph validation found 3 discrepancy(ies)
+[00:01:14] GATE        - Script event EVT-172 is an OBJECTIVE:END that no objective claims.
+[00:01:14] GATE        - Script event EVT-087 is an OBJECTIVE:UPDATE that no objective claims.
+[00:01:14] GATE        - Script event EVT-125 is an OBJECTIVE:UPDATE that no objective claims.
+[00:01:14] GATE      Discrepancies persist. Forwarding to the Gap auditor as evidence of a script bug.
+[00:01:14] GATE      04_runtime_data schema valid on attempt 2.
+[00:01:14] WRITE     04_runtime_data
+[00:01:14] DISPATCH  Gap auditor (via claude)
+[00:01:14] TOKENS    Gap auditor: 0 in / 0 out
+[00:01:14] GATE      05_gap_report schema valid on attempt 1.
+[00:01:14] WRITE     05_gap_report
+[00:01:14] AUDIT     4 findings: {'NOTE': 1, 'WARNING': 3}
+[00:01:14] DONE      6 model calls, 0 in / 0 out
+
+========================================================================
+Unique assets      : 8
+Animation clips    : 1 in 1 capture sessions
+Objectives         : 6
+System unlocks     : 1
+Subtitle rows      : 77
+Gap findings       : 4
+========================================================================
+
+Game-ready output : /home/claude/slice_compiler/output
+Full agent trail  : /home/claude/slice_compiler/blackboard

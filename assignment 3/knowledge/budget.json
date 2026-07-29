@@ -1,0 +1,127 @@
+{
+  "_source": "Mr. Moonlight GDD, first draft — 'Critical Features for MVP' chapter. Complexity estimates are the developer's own.",
+  "_note": "This is the developer's stated budget, not a wish list. The Gap auditor's job is to find what the Day 1 script requires that does not appear here. Absence from this file is the finding.",
+  "scope": "MVP vertical slice, Days 1 to 3",
+  "already_owned": [
+    {
+      "name": "FPS mechanics package (Unity Asset Store)",
+      "covers": "Player controller, enemy behaviour base, combat system, inventory system, jumpscare and event manager, interaction system, flashlight",
+      "note": "Must be adapted and trimmed, not rebuilt. Wrappers preferred over edits to the original package."
+    },
+    {
+      "name": "Procedural terrain system",
+      "covers": "Terrain generation and layout",
+      "note": "Already functional. Needs seeding, walkability and spawn-zone work."
+    },
+    {
+      "name": "Nani Novel (Unity Asset Store)",
+      "covers": "Dialogue events and sound triggering, built for visual novels",
+      "note": "GDD marks the dialogue system as IN PROGRESS. Either adapt Nani Novel for an FPS or replace it with something simpler. Undecided."
+    }
+  ],
+  "features": [
+    {
+      "id": "terrain",
+      "name": "Procedural terrain system",
+      "complexity": "large",
+      "days": 10,
+      "includes": [
+        {"name": "Tree props", "scope": "full"},
+        {"name": "Grass props", "scope": "full"},
+        {"name": "Soil texture", "scope": "full"},
+        {"name": "Rock props", "scope": "full"},
+        {"name": "Fog particles", "scope": "full"},
+        {"name": "Water surface", "scope": "full"},
+        {"name": "Flak tower model", "scope": "exterior only"},
+        {"name": "Chapel model", "scope": "exterior only"},
+        {"name": "Cabin model", "scope": "unspecified"},
+        {"name": "Dock model", "scope": "full"},
+        {"name": "Mineshaft model", "scope": "exterior only"},
+        {"name": "Altars", "scope": "full"},
+        {"name": "Camping site", "scope": "full"},
+        {"name": "Bonfires", "scope": "full"},
+        {"name": "Wells", "scope": "full"},
+        {"name": "Statues", "scope": "full"}
+      ]
+    },
+    {"id": "fps_movement", "name": "FPS player controller: movement", "complexity": "small", "days": 1, "includes": []},
+    {
+      "id": "melee",
+      "name": "FPS melee system, agnostic with variables",
+      "complexity": "small",
+      "days": 2,
+      "includes": [{"name": "Knife", "scope": "full"}, {"name": "Pickaxe", "scope": "full"}]
+    },
+    {
+      "id": "firearms",
+      "name": "FPS fire system, agnostic with variables",
+      "complexity": "small",
+      "days": 2,
+      "includes": [
+        {"name": "Gun", "scope": "full"},
+        {"name": "Shotgun", "scope": "full"},
+        {"name": "Rifle", "scope": "full"},
+        {"name": "Crossbow", "scope": "full"}
+      ]
+    },
+    {
+      "id": "animation_manager",
+      "name": "Animation manager",
+      "complexity": "medium",
+      "days": 4,
+      "includes": [
+        {"name": "Enemy animation manager and event blocker", "scope": "full"},
+        {"name": "Player animation manager and event blocker", "scope": "full"},
+        {"name": "Listing of animations", "scope": "TBD in the GDD"}
+      ]
+    },
+    {
+      "id": "drugs",
+      "name": "Drug system",
+      "complexity": "medium",
+      "days": 4,
+      "includes": [
+        {"name": "Alcohol", "scope": "full"},
+        {"name": "Marijuana", "scope": "full"},
+        {"name": "Shrooms", "scope": "full"},
+        {"name": "Morphine", "scope": "full"}
+      ]
+    },
+    {
+      "id": "items",
+      "name": "Item system",
+      "complexity": "small",
+      "days": 1,
+      "includes": [
+        {"name": "Backpack weight system", "scope": "full"},
+        {"name": "Use item system", "scope": "full"}
+      ]
+    },
+    {"id": "stamina", "name": "Stamina system", "complexity": "small", "days": 2, "includes": []},
+    {"id": "health", "name": "Health system", "complexity": "small", "days": 1, "includes": []},
+    {"id": "spawner", "name": "Enemy spawner system", "complexity": "medium", "days": 4, "includes": []},
+    {"id": "day_night", "name": "Night and day system", "complexity": "large", "days": 6, "includes": []},
+    {"id": "navigation", "name": "Compass and map system", "complexity": "small", "days": 3, "includes": []},
+    {
+      "id": "light",
+      "name": "Light system",
+      "complexity": "medium",
+      "days": 4,
+      "includes": [
+        {"name": "Match", "scope": "full"},
+        {"name": "Lamp", "scope": "full"},
+        {"name": "Enemy lamp", "scope": "full"},
+        {"name": "Zippo", "scope": "full"}
+      ]
+    }
+  ],
+  "explicitly_cut": [
+    {"name": "Melee faint", "reason": "Connections to the stamina system and enemy behaviour"},
+    {"name": "Star telescope minigame", "reason": "Scope and sanity. The night sky itself is retained"}
+  ],
+  "day_one_intent_from_gdd": {
+    "tutorial": "Basics of exploration with map and compass, and use of items",
+    "main_objective": "Finding Scott and giving him first aid",
+    "enemies_and_threats": ["Wolves", "Bear traps", "Cultist spotters", "Cultist priest", "A single Furman"]
+  }
+}

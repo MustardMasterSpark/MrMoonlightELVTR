@@ -1,0 +1,106 @@
+flowchart TD
+    SRC[/"DAY_1_STRICT_FORMAT.txt<br/>224 events, 10 scenes"/]
+
+    PRE["parse_script.py<br/>DETERMINISTIC — no model<br/>regex split into records"]
+
+    subgraph BBIN["Blackboard: parsed inputs"]
+        EV["00_events.json<br/>224 records, scene-tagged"]
+        SUB["subtitles.json<br/>77 rows, speaker and delivery"]
+        CANON["canon.json<br/>GDD extract: 1978 setting,<br/>art direction, archetypes"]
+        BUD["budget.json<br/>GDD critical features<br/>with complexity days"]
+    end
+
+    A1["1. Scenographer — Sonnet<br/>One call per scene.<br/>Infers what must exist for<br/>each event to play.<br/>Does not deduplicate."]
+    A2["2. Quartermaster — Sonnet<br/>Deduplicates to unique assets,<br/>then marks each budgeted,<br/>partial or unbudgeted."]
+    FILT["animation_assets filter<br/>DETERMINISTIC — no model<br/>selects kind == animation"]
+    A3["3. Animation director — Sonnet<br/>Rig target, capture method,<br/>event frames, and grouping<br/>into mocap capture sessions."]
+    A4["4. Sequencer — Sonnet<br/>Objective state machine plus<br/>system-unlock timeline.<br/>Reports the script honestly."]
+    A5["5. Gap auditor — Sonnet<br/>What the script needs that<br/>the GDD never budgeted.<br/>Assigns severity."]
+
+    R1["01_requirements.json<br/>~400 raw requirements"]
+    R2["02_asset_manifest.json<br/>~120 unique assets"]
+    R3["03_animation_list.json<br/>clips plus capture sessions"]
+    R4["04_runtime_data.json<br/>objectives plus unlocks"]
+    R5["05_gap_report.json"]
+
+    G1{"GATE 1<br/>schemas.validate_artifact<br/>shape, types, enums<br/>DETERMINISTIC"}
+    G2{"GATE 2<br/>validate_animation_coverage<br/>nothing dropped or invented<br/>DETERMINISTIC"}
+    G3{"GATE 3<br/>validate_objective_graph<br/>graph vs source script<br/>DETERMINISTIC"}
+
+    subgraph OUT["output/ — game-ready"]
+        O1["asset_manifest.json"]
+        O2["animation_assets.json"]
+        O3["runtime_data.json"]
+        O4["subtitles.json"]
+        O5["gap_report.md"]
+    end
+
+    LOG[["run.log<br/>every dispatch, gate,<br/>retry and token count"]]
+
+    SRC --> PRE
+    PRE --> EV
+    PRE --> SUB
+
+    EV -->|one scene at a time| A1
+    CANON --> A1
+    A1 --> R1
+    R1 --> G1
+
+    G1 -->|valid| A2
+    BUD --> A2
+    A2 --> R2
+    R2 --> G1
+
+    G1 -->|valid| FILT
+    R2 --> FILT
+    FILT --> A3
+    EV --> A3
+    CANON --> A3
+    A3 --> R3
+    R3 --> G2
+
+    G2 -->|coverage gaps:<br/>retry once| A3
+    G2 -->|valid| A4
+
+    EV --> A4
+    R2 --> A4
+    A4 --> R4
+    R4 --> G3
+
+    G3 -->|discrepancies:<br/>retry once| A4
+    G3 -->|unresolved after retry:<br/>forwarded as evidence<br/>of a script bug| A5
+
+    R2 --> A5
+    R3 --> A5
+    R4 --> A5
+    BUD --> A5
+    A5 --> R5
+    R5 --> G1
+
+    G1 -->|all valid| OUT
+    R2 --> O1
+    R3 --> O2
+    R4 --> O3
+    SUB --> O4
+    R5 --> O5
+
+    A1 -.-> LOG
+    A2 -.-> LOG
+    A3 -.-> LOG
+    A4 -.-> LOG
+    A5 -.-> LOG
+    G1 -.-> LOG
+    G2 -.-> LOG
+    G3 -.-> LOG
+
+    classDef agent fill:#EEEDFE,stroke:#534AB7,color:#26215C
+    classDef store fill:#E1F5EE,stroke:#0F6E56,color:#04342C
+    classDef gate fill:#FAEEDA,stroke:#854F0B,color:#412402
+    classDef det fill:#E6F1FB,stroke:#185FA5,color:#042C53
+    classDef io fill:#F1EFE8,stroke:#5F5E5A,color:#2C2C2A
+
+    class A1,A2,A3,A4,A5 agent
+    class EV,SUB,CANON,BUD,R1,R2,R3,R4,R5,LOG store
+    class G1,G2,G3 gate
+    class PRE,FILT det
+    class SRC,O1,O2,O3,O4,O5 io

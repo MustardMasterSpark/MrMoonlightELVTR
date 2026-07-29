@@ -1,0 +1,309 @@
+MR. MOONLIGHT — DAY 1 SCRIPT
+Grammar-corrected working draft with strict event annotations
+
+
+STRICT FORMAT
+EVENT ID | EVENT TYPE | CONTENT
+
+EVENT TYPES
+ACTION             Player-performed or world action.
+SYSTEM             Gameplay-state change, trigger, restriction, or rule.
+DIALOGUE:T         Spoken dialogue by Tracey. Audio and subtitles.
+DIALOGUE:R         Spoken dialogue by Rylee. Audio and subtitles.
+THOUGHT:T          Tracey's internal thought. On-screen text only.
+ANIMATION          Character, first-person, prop, or camera animation.
+CUTSCENE:BLOCKING  Temporarily removes or restricts player control.
+VFX                Visual effect.
+SFX                Sound effect or environmental audio cue.
+MESSAGE            System, interaction, tutorial, or pickup message.
+OBJECTIVE:START    Creates the current objective in the pause-menu form.
+OBJECTIVE:UPDATE   Changes the current objective.
+OBJECTIVE:END      Completes and removes the current objective.
+BEAT               Pause, silence, staging, or timing instruction.
+OUTLINE            Undetailed event retained from the unfinished outline.
+NOTE               Production clarification that is not an in-game event.
+
+SPEAKERS
+T = Tracey
+R = Rylee
+
+OBJECTIVE UI
+The current objective appears in the pause menu on a psychiatric-style form titled:
+"How are you feeling today?" accompanied by a smiley face.
+
+===============================================================================
+SCENE 01 — WAKING AT THE CAMPSITE
+===============================================================================
+
+EVT-001 | VFX | The screen is completely black.
+EVT-002 | SFX | A faint radio call can be heard in the distance.
+EVT-003 | SFX | Tracey's Seiko watch alarm begins to ring.
+EVT-004 | DIALOGUE:T | "Uhhhh..."
+EVT-005 | DIALOGUE:T | "Auhhhhh..."
+EVT-006 | VFX | The black screen fades. Everything is blurry except the Seiko watch.
+EVT-007 | OBJECTIVE:START | "That stupid alarm..."
+EVT-008 | DIALOGUE:T | "All right, all right already!"
+EVT-009 | DIALOGUE:T | "I hear you! I hear you..."
+EVT-010 | SYSTEM | Enable camera look. Tracey cannot move yet.
+EVT-011 | SFX | The Seiko alarm continues ringing.
+EVT-012 | MESSAGE | Show the interaction icon when the player looks at the watch.
+EVT-013 | ANIMATION | First-person animation: Tracey reaches toward the watch.
+EVT-014 | ACTION | The player stops the watch alarm.
+EVT-015 | OBJECTIVE:END | Complete "That stupid alarm..."
+EVT-016 | VFX | Tracey's vision clears slightly, but remains hazy and blurry.
+EVT-017 | DIALOGUE:T | "Ufffffffff..."
+EVT-018 | DIALOGUE:T | "It's way too early..."
+EVT-019 | DIALOGUE:T | "Why the fuck didn't I turn it off?"
+EVT-020 | CUTSCENE:BLOCKING | Temporarily disable player control for the wake-up sequence.
+EVT-021 | ANIMATION | First-person animation: Tracey gets up.
+EVT-022 | VFX | Her vision suddenly blurs and the camera shakes.
+EVT-023 | SFX | Sudden disorientation sting.
+EVT-024 | DIALOGUE:T | "Uhhhg... shit..." Her voice fades.
+EVT-025 | ANIMATION | Tracey drops to her knees and vomits.
+EVT-026 | SYSTEM | Reveal the stamina bar and drain stamina during the vomiting animation.
+EVT-027 | DIALOGUE:T | "Puaaaghhhhhhhhhhhhhhhhhhh!"
+EVT-028 | DIALOGUE:T | "Ah... ah... fuck..."
+EVT-029 | DIALOGUE:T | "Getting too old for this shit."
+EVT-030 | ANIMATION | Tracey wipes her mouth; her hand briefly passes in front of the camera.
+EVT-031 | VFX | Her vision clears a little more and the camera focuses on the table.
+EVT-032 | DIALOGUE:T | "Uhhhh... water..." Spoken weakly.
+EVT-033 | OBJECTIVE:START | "Water, please..."
+EVT-034 | SYSTEM | Enable player movement.
+EVT-035 | ACTION | The player picks up the canteen from the table.
+EVT-036 | ANIMATION | Tracey immediately drinks from the canteen while looking up at the trees.
+EVT-037 | MESSAGE | "Canteen picked up."
+EVT-038 | SFX | Drinking sounds.
+EVT-039 | SYSTEM | Refill part of the stamina bar and begin slow stamina recovery.
+EVT-040 | VFX | Tracey's vision clears completely.
+EVT-041 | DIALOGUE:T | "Ahhhhhhh..."
+EVT-042 | OBJECTIVE:END | Complete "Water, please..."
+
+===============================================================================
+SCENE 02 — THE MISSING BOOTS
+===============================================================================
+
+EVT-043 | SFX | The radio call becomes louder and easier to locate.
+EVT-044 | DIALOGUE:T | "What in the world?"
+EVT-045 | OBJECTIVE:START | "Who's calling?"
+EVT-046 | ANIMATION | Tracey puts the canteen on her belt, then realizes she is not wearing boots.
+EVT-047 | DIALOGUE:T | "Wha... what!?"
+EVT-048 | DIALOGUE:T | "My boots! My fucking boots!"
+EVT-049 | DIALOGUE:T | "Fucking assholes."
+EVT-050 | THOUGHT:T | "You've done it again!"
+EVT-051 | THOUGHT:T | "My boots better not be in the fucking cooler, Rylee."
+EVT-052 | THOUGHT:T | "I better look around for my boots."
+EVT-053 | OBJECTIVE:UPDATE | "My fucking boots."
+EVT-054 | ACTION | The player searches the campsite.
+EVT-055 | ACTION | The player finds a blue cooler in front of the RV. It contains two beers, two sodas, and three packets of crackers.
+EVT-056 | ACTION | The player attempts to pick up five items.
+EVT-057 | THOUGHT:T | "I can't carry all of it... Better choose wisely."
+EVT-058 | SYSTEM | Introduce the inventory-capacity rule. Allow the player to discard an item from the backpack menu or with the assigned discard input.
+EVT-059 | ACTION | The player finds a red cooler behind the RV. It contains the radio and matches.
+EVT-060 | DIALOGUE:T | "Huh... This isn't where you belong."
+EVT-061 | ACTION | The player picks up the radio.
+EVT-062 | SYSTEM | Start the radio conversation. The player may move, but at reduced speed while Tracey holds the radio.
+EVT-063 | OBJECTIVE:END | Complete "Who's calling?"
+
+===============================================================================
+SCENE 03 — RADIO CONVERSATION WITH RYLEE
+===============================================================================
+
+EVT-064 | DIALOGUE:T | "Uhhh... hello?"
+EVT-065 | BEAT | No response.
+EVT-066 | DIALOGUE:T | "Hellooo?"
+EVT-067 | BEAT | No response.
+EVT-068 | DIALOGUE:T | "You better start talking. You took my boots, bitch!"
+EVT-069 | DIALOGUE:R | "Calm down. Good morning to you too! Huh... so you had the third radio."
+EVT-070 | DIALOGUE:T | "It was in a fucking cooler. I bet you were the airhead who left it there. Where are my boots?"
+EVT-071 | DIALOGUE:R | "I love you too, Tracey. Anyway, thanks for finding it. Robert would've killed me if it got lost."
+EVT-072 | DIALOGUE:T | "Rylee."
+EVT-073 | DIALOGUE:R | "I barely slept. Wild night. I was looking for the radio, but I guess I took a little nap. What time is it, anyway?"
+EVT-074 | DIALOGUE:T | "RYLEE!"
+EVT-075 | DIALOGUE:R | "Shhhh! Everyone is still sleeping. What do you want?"
+EVT-076 | DIALOGUE:T | "My motherfucking boots! Where are they? I'm walking around in my fucking socks on the fucking wet forest floor."
+EVT-077 | BEAT | Brief pause.
+EVT-078 | DIALOGUE:R | "Oh, Tracey... don't kill me. I have them with me."
+EVT-079 | DIALOGUE:T | "You fat bitch."
+EVT-080 | DIALOGUE:R | "Hey! I'm sorry. Last night, you, Robert, and I went back to camp for more booze and the sleeping bags. Then you started puking and passed out. We left you all cozy near the bonfire, and I took off your boots so you could sleep comfortably... I guess I forgot I still had them. I'm sorry! It was an accident, I swear!"
+EVT-081 | DIALOGUE:T | "Mmhmm." Sarcastic. "It better have been—and not one of your jokes."
+EVT-082 | DIALOGUE:R | "You should see yourself when you sleep. You look like a puppy, even after puking a gallon of shit. I'll take a photo while you're sleeping so you can see what I mean."
+EVT-083 | DIALOGUE:T | "Gross."
+EVT-084 | DIALOGUE:R | "Relax. I'll get your consent—and only when you're naked."
+EVT-085 | DIALOGUE:T | "Fuck you, creep. Anyway, where the hell are you guys? You left me all alone."
+EVT-086 | DIALOGUE:R | "You don't remember? I guess not. You made a pretty big mess of yourself early on. Well, we're still in the Glade... Ah, I feel sorry for you, Tracey! The meteor shower was amazing! Then we lit another bonfire, had some zaza with hot dogs and vodka, and I made out with Holly and that Greek body of hers. Then I blew Scott while giving a double handjob to Will and the redskin. Shannon was there too, watching everything from her good-girl chair."
+EVT-087 | OBJECTIVE:UPDATE | "Get to the Glade and get my boots."
+EVT-088 | DIALOGUE:T | "Shut the fuck up, you filthy whore. Ugh, disgusting. Just tell me where you are!"
+EVT-089 | DIALOGUE:R | "Ah, don't hate me just because I'm pretty!"
+EVT-090 | DIALOGUE:T | "Rylee, nobody thinks you're pretty, you cow."
+EVT-091 | DIALOGUE:R | "So rude! Well... uhh... I think we're not that far from camp? What did Will say? Uh... east! Yes, east! Just head east from the campsite. Straight ahead!"
+EVT-092 | DIALOGUE:T | "What kind of directions are those?"
+EVT-093 | DIALOGUE:R | "Sorry! Do you want me to wake Scott so he can come rescue you?"
+EVT-094 | BEAT | Tracey hesitates.
+EVT-095 | ANIMATION | First-person animation: Tracey looks at the radio uncertainly.
+EVT-096 | DIALOGUE:T | "Nah. A barefoot walk through the forest is exactly what I need to connect with my inner self."
+EVT-097 | DIALOGUE:R | "Your pride wins again. You missed your chance to be alone with Scott, dumbass."
+EVT-098 | DIALOGUE:T | "Shut up!"
+EVT-099 | DIALOGUE:R | "Yeah, sorry. I will. I'm really tired. Mmmh... go inside Will's tent. There was an extra compass in there, so you can head east. That British weirdo keeps a key under the RV rug."
+EVT-100 | OBJECTIVE:START | "Get the compass from Will's tent."
+EVT-101 | DIALOGUE:T | "Uhhhh... why do you—wait. What were you doing inside his tent?"
+EVT-102 | DIALOGUE:R | "Relax. I was just having a peek. I wanted to find underwear with cum stains, but I guess he's pretty clean."
+EVT-103 | DIALOGUE:T | "Ugh... you're the worst."
+EVT-104 | DIALOGUE:R | "Yours truly. Sorry, I'm falling asleep. We'll wait for you, barefoot princess..."
+EVT-105 | ANIMATION | Tracey lowers the radio with a pout.
+EVT-106 | SYSTEM | End the radio conversation and restore normal movement speed.
+EVT-107 | THOUGHT:T | "You fucking prick."
+
+===============================================================================
+SCENE 04 — WILL'S TENT AND THE COMPASS
+===============================================================================
+
+EVT-108 | ACTION | The player attempts to open William's tent without the key.
+EVT-109 | THOUGHT:T | "The key was under the rug, according to the cow."
+EVT-110 | ACTION | The player interacts with the rug beneath the RV.
+EVT-111 | ANIMATION | Tracey lifts the rug and picks up the key.
+EVT-112 | MESSAGE | "William's tent key picked up."
+EVT-113 | DIALOGUE:T | "Now, let's get that compass."
+EVT-114 | ACTION | The player interacts with William's tent door.
+EVT-115 | ANIMATION | Tracey unlocks the door. The lock falls and the tent opens.
+EVT-116 | ACTION | The player picks up the compass.
+EVT-117 | ANIMATION | Tracey takes the compass and map neck pouch from inside a parka.
+EVT-118 | MESSAGE | "Map and compass picked up."
+EVT-119 | SYSTEM | Enable the map-and-compass navigation mechanic.
+EVT-120 | ACTION | Optional: the player examines the scattered clothing.
+EVT-121 | THOUGHT:T | "Rylee... you didn't..."
+EVT-122 | ACTION | The player exits the tent.
+EVT-123 | DIALOGUE:T | "Right. East. Let's go east."
+EVT-124 | OBJECTIVE:END | Complete "Get the compass from Will's tent."
+EVT-125 | OBJECTIVE:UPDATE | "Head east to the Glade."
+
+===============================================================================
+SCENE 05 — THE FOREST ROAD TO THE GLADE
+===============================================================================
+
+EVT-126 | ACTION | The player travels east through the forest.
+EVT-127 | SYSTEM | A single wolf crosses the player's view at a distance, following a predefined path. It ignores Tracey. Because she is barefoot, she cannot catch it.
+EVT-128 | SFX | Distant wolf calls and movement through the brush.
+EVT-129 | DIALOGUE:T | "Ah—!" A muffled gasp.
+EVT-130 | THOUGHT:T | "A fucking wolf!"
+EVT-131 | SYSTEM | Increase Tracey's fear state.
+EVT-132 | VFX | Add mild chromatic aberration.
+EVT-133 | SFX | Add slightly heavier breathing.
+EVT-134 | ACTION | The player continues east.
+EVT-135 | SFX | Sounds of an attack become audible as the player approaches the Glade.
+EVT-136 | DIALOGUE:T | "What's happening?"
+EVT-137 | DIALOGUE:T | "Jesus!"
+EVT-138 | THOUGHT:T | "God... what the fuck is going on?"
+EVT-139 | SYSTEM | Increase Tracey's fear state again.
+EVT-140 | VFX | Intensify chromatic aberration.
+EVT-141 | SFX | Intensify Tracey's breathing and the distant struggle.
+EVT-142 | ACTION | The player continues east and nears the Glade.
+EVT-143 | SFX | The attack sounds fade away before the player can see into the Glade.
+EVT-144 | BEAT | Brief, unnatural silence before the reveal.
+
+===============================================================================
+SCENE 06 — THE EMPTY GLADE
+===============================================================================
+
+EVT-145 | ACTION | The player enters the Glade.
+EVT-146 | SYSTEM | Stage the Glade as abandoned: belongings are scattered across the ground, the bonfire is extinguished, and the sleeping bags are in disarray. A pickaxe is embedded in the telescope frame. Tracey's boots lie near the bonfire. Near a table are a beer, a soda, and a Polaroid photograph of the group.
+EVT-147 | DIALOGUE:T | "Friends?" Her voice begins to break.
+EVT-148 | MESSAGE | Highlight the boots with a downward arrow and an interaction prompt.
+EVT-149 | ACTION | The player picks up Tracey's boots.
+EVT-150 | DIALOGUE:T | "Rylee..."
+EVT-151 | ANIMATION | First-person animation: Tracey puts on her boots.
+EVT-152 | SYSTEM | Enable sprinting. Sprinting produces more noise than walking.
+EVT-153 | ACTION | The player picks up the Polaroid photograph of the group.
+EVT-154 | DIALOGUE:T | "Guys..."
+EVT-155 | ANIMATION | Tracey studies the photograph.
+EVT-156 | DIALOGUE:T | "I..."
+EVT-157 | ANIMATION | Tracey places the photograph inside the map-and-compass pouch.
+EVT-158 | ACTION | The player inspects the telescope.
+EVT-159 | ANIMATION | Tracey examines the pickaxe embedded in the telescope frame and pulls it free. She notices a shining light in the distant forest.
+EVT-160 | MESSAGE | "Pickaxe found."
+EVT-161 | SYSTEM | Equip or unlock the pickaxe as a melee weapon.
+EVT-162 | DIALOGUE:T | "Huh?"
+EVT-163 | CUTSCENE:BLOCKING | Tracey automatically looks through the telescope. The player cannot leave telescope view until the shining light is located.
+EVT-164 | SYSTEM | When the light is centered, reveal a distant cabin and a shadow near it.
+EVT-165 | DIALOGUE:T | "Who... are..."
+EVT-166 | SFX | Wolves howl and snarl behind Tracey.
+EVT-167 | ANIMATION | Tracey abruptly pulls away from the telescope.
+EVT-168 | SYSTEM | Restore player control and begin the wolf encounter.
+EVT-169 | ACTION | The player fights a pack of wolves using the pickaxe.
+EVT-170 | DIALOGUE:T | "I need to get out of here!"
+EVT-171 | THOUGHT:T | "That cabin! I need to get there!"
+EVT-172 | OBJECTIVE:END | Complete "Head east to the Glade."
+EVT-173 | OBJECTIVE:START | "Reach the cabin."
+
+===============================================================================
+SCENE 07 — THE ROAD TO VERNON'S CABIN
+===============================================================================
+
+EVT-174 | ACTION | The player follows the route toward the cabin.
+EVT-175 | SYSTEM | Place a bear trap on the path. The first trap cannot kill Tracey, but it removes a large amount of health and stamina.
+EVT-176 | OUTLINE | BRANCH A: If the player avoids the bear trap, two zealot cultists attack on the road. The encounter must be survivable through combat.
+EVT-177 | DIALOGUE:T | Tracey screams or grunts during the fight. Exact lines are TBD.
+EVT-178 | DIALOGUE:T | "Oh God..." Triggered after she kills the cultists.
+EVT-179 | OUTLINE | BRANCH B: If the player is caught in the bear trap, the zealots do not attack. Two spotter cultists patrol at a distance with flashlights.
+EVT-180 | SYSTEM | In Branch B, the spotters remain non-hostile unless the player approaches or runs directly toward them. Fighting them in Tracey's injured state is intended to be fatal.
+EVT-181 | ACTION | In Branch B, the player must wait for the patrol to pass or move around it.
+EVT-182 | DIALOGUE:T | Muffled sounds of pain and anguish. Exact lines are TBD.
+EVT-183 | SYSTEM | Increase fear and apply a stronger camera shake while Tracey is injured.
+EVT-184 | ACTION | The player reaches the cabin and knocks on the door.
+EVT-185 | SYSTEM | The cabin door is covered in crosses. The exterior is mostly dark, with only a small light visible inside.
+EVT-186 | OBJECTIVE:END | Complete "Reach the cabin."
+
+===============================================================================
+SCENE 08 — VERNON'S CABIN [OUTLINE]
+===============================================================================
+
+EVT-187 | OUTLINE | Interior scene in Vernon's cabin. Holly is present.
+EVT-188 | OUTLINE | Establish that Vernon has tuberculosis.
+EVT-189 | OUTLINE | Holly gives Tracey marijuana.
+EVT-190 | OUTLINE | Vernon gives Tracey an M1911 pistol and morphine.
+EVT-191 | OUTLINE | Tracey receives or detects a radio transmission from Scott.
+EVT-192 | OBJECTIVE:START | Find Scott. Exact objective wording is TBD.
+EVT-193 | OUTLINE | The flak tower is visible in the distance, but it cannot be entered.
+EVT-194 | SYSTEM | If the player approaches the flak tower, communicate that it is occupied by an overwhelming number of cultists and is effectively a suicide area.
+EVT-195 | OUTLINE | Vernon directs Tracey toward the mine entrance.
+EVT-196 | NOTE | Dialogue, blocking, NPC animations, item handoffs, and objective transitions for this scene remain unwritten.
+
+===============================================================================
+SCENE 09 — THE MINE [OUTLINE]
+===============================================================================
+
+EVT-197 | OUTLINE | The player reaches the mine entrance.
+EVT-198 | OUTLINE | The player obtains or activates a mining lamp.
+EVT-199 | OUTLINE | The mine route is mostly linear.
+EVT-200 | OUTLINE | The player encounters and fights cultists inside the mine.
+EVT-201 | OUTLINE | On the far side of the mine, Tracey finds Scott unconscious in an infirmary room.
+EVT-202 | OUTLINE | The infirmary contains supplies, a stretcher, a lamp, and an Arisaka rifle.
+EVT-203 | OBJECTIVE:UPDATE | Rescue Scott. Exact wording is TBD.
+EVT-204 | OUTLINE | Tracey places or secures Scott on the stretcher.
+EVT-205 | OUTLINE | The player exits through the far side of the mine while pulling Scott on the stretcher.
+EVT-206 | NOTE | Scott's condition, interaction method, escort controls, failure conditions, and combat restrictions remain unwritten.
+
+===============================================================================
+SCENE 10 — THE NIGHT ESCAPE [OUTLINE]
+===============================================================================
+
+EVT-207 | OUTLINE | It is now fully dark outside.
+EVT-208 | SFX | Distant whistles, wolves, and a flare signal can be heard or seen.
+EVT-209 | OUTLINE | Vernon contacts Tracey by radio.
+EVT-210 | OUTLINE | Vernon tells her to head north and follow the North Star to reach a shelter.
+EVT-211 | OBJECTIVE:UPDATE | Head north and follow the North Star to the shelter. Final wording is TBD.
+EVT-212 | OUTLINE | Halfway to the shelter, the player reaches a statue of the Virgin Mary.
+EVT-213 | OUTLINE | Cultists ambush Tracey and surround her in a circle of fire.
+EVT-214 | OUTLINE | Vernon creates a distraction. A flare and distant gunfire are visible and audible.
+EVT-215 | OUTLINE | The distraction gives Tracey an opportunity to run toward the shelter.
+EVT-216 | OUTLINE | Tracey climbs the Hill of Crosses while a Furman pursues her.
+EVT-217 | VFX | The sky turns red.
+EVT-218 | SYSTEM | The ground begins to shake.
+EVT-219 | SFX | Earthquake, cracking trees, distant gunfire, cultist whistles, and Furman pursuit audio.
+EVT-220 | ACTION | The player reaches the church.
+EVT-221 | OBJECTIVE:END | Complete the final shelter objective.
+EVT-222 | OUTLINE | Day 1 ending sequence inside or at the entrance of the church. Exact staging is TBD.
+EVT-223 | MESSAGE | "DAY 1 COMPLETE" or final equivalent. Exact presentation is TBD.
+EVT-224 | NOTE | The original outline ends here. The church interaction, Scott's state, the 3:00 a.m. deadline, the island transformation, and the final transition still need to be scripted.
+
+
+END OF WORKING DRAFT
