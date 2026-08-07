@@ -6,8 +6,10 @@ TLDR instructions to run it:
 python3 verify_setup.py          # confirms the files transferred intact
 python3 kb.py                    # inspect the index and test retrieval, free
 python3 forge.py --dry-run       # plumbing test on FIXTURES, free, not real content
-python3 forge.py --quick         # live, 4 triggers and 3 scenes, cheap
+python3 forge.py --quick         # live, 4 triggers and 3 scenes, cheap 
 python3 forge.py                 # live, full run
+
+python3 assemble.py              # IF LIVE RUNS FAIL USE THIS TO BUILD AGAIN THE OUTPUTS
 ```
 
 
