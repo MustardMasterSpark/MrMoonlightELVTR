@@ -1,0 +1,1767 @@
+[
+  {
+    "purpose": "thought:waking_hungover",
+    "query": "Tracey hangover campsite alarm vomit stamina morning",
+    "retrieved": [
+      {
+        "id": "L01#S01",
+        "section": "Scene 01 \u2014 WAKING AT THE CAMPSITE",
+        "score": 13.574,
+        "matched_terms": [
+          "alarm",
+          "campsite",
+          "hangover",
+          "stamina",
+          "tracey",
+          "vomit"
+        ],
+        "excerpt": "============================================================================= -->\n\n\nL01E-001 || VFX:PV || Name: Black screen || Description: The camera view is completely dark. || Execution: after the player starts a new game from the main menu, the black screen is already active || Duration: N/A || Intensity: N/A || Layer: N/A\nL01E-000 || VFX:UI || Name: Black screen || Description: after the player starts a new game from the main menu, the black screen is already active. All UI elements (except the subtitle text) are black. || Execution: N/A\nL01E-000 || CB:T || Name: Camera blocked from star"
+      },
+      {
+        "id": "GDD#007",
+        "section": "ELEVATOR PITCH \u2014 THE FICTION",
+        "score": 9.752,
+        "matched_terms": [
+          "hangover",
+          "morning",
+          "tracey"
+        ],
+        "excerpt": "A group of friends, a weeklong camping trip, a remote Alaskan island. Trying to have one good last time together\nbefore the important adulthood changes arrive. Something goes wrong.\nYou are Tracey, a grumpy drug addict trying to save her kidnapped friends from a cult that will sacrifice them at the\nend of the week. There is something about the island: each night its terrain shifts into something deadly, and every\nnight it forces you to find shelter before three in the morning.\nDay 1 is where none of that is known yet. Tracey wakes up with a hangover and no boots, and spends a morning\nbeing ann"
+      },
+      {
+        "id": "GDD#036",
+        "section": "CUT FROM T HE ENEMY ROST ER",
+        "score": 5.746,
+        "matched_terms": [
+          "alarm",
+          "stamina",
+          "tracey"
+        ],
+        "excerpt": "Stone totems, the Cultist Priest and punji traps appear in v0.1 but not in the Day 1 script. All three are removed from\nthe slice. The priest in particular carries ranged weapons, poison and later spellcasting \u2014 a whole combat category the\nslice does not need.\n\n\n\n\n\n\n\n 09 IT EMS\n\n\nSeventeen objects. Every one of them is picked up, handed over or used somewhere in the Day 1 script.\n\n                Item                       Role in Day 1\n\n                Canteen                    The first thing Tracey wants. Drinking clears her vision and starts stamina recovery.\n                CONSUMABLE, R"
+      },
+      {
+        "id": "GDD#008",
+        "section": "ELEVATOR PITCH \u2014 THE MECHANICS OF THE SLICE",
+        "score": 5.196,
+        "matched_terms": [
+          "campsite",
+          "stamina",
+          "tracey"
+        ],
+        "excerpt": "\u2022 A fixed route, hand built. Day 1 runs on one authored path through eight locations. The procedural island\n   generator that reshuffles the map every day is a full-game feature and is not in the slice \u2014 see section 12.\n \u2022 Navigation you have to stop for. A map and a compass, taken from William's tent. Deploying them locks Tracey\n   in place and exposes her, so reading the map is a decision, not a free action.\n \u2022 Combat that costs something. A pickaxe with heavy slow swings, and two firearms handed over late. Every blow\n   drains stamina. Some encounters are meant to be walked around, not won."
+      }
+    ],
+    "output": "Whose idea was the second bottle. / Mouth tastes like a wet ashtray. / The sun is too loud today."
+  },
+  {
+    "purpose": "thought:missing_boots",
+    "query": "boots missing barefoot socks forest floor sprint noise",
+    "retrieved": [
+      {
+        "id": "GDD#027",
+        "section": "MOCKUP SCREENS",
+        "score": 7.131,
+        "matched_terms": [
+          "noise",
+          "sprint"
+        ],
+        "excerpt": "Carry and drop          Backpack holds a limited number of items; the player                  At the blue cooler\n                         chooses what to lose.\n\n Navigate                Deploy map and compass. Locks Tracey in place while                   From William's tent\n                         open.\n\n Swing                   Heavy, slow pickaxe blows that drain stamina.                         Pulled from the telescope frame\n\n Shoot                   M1911, then the Arisaka. Loud, scarce, and a last resort.             Vernon's cabin, then the mine infirmary\n\n Drag                    Pul"
+      },
+      {
+        "id": "L01#S03",
+        "section": "Scene 03 \u2014 RADIO CONVERSATION WITH RYLEE",
+        "score": 6.723,
+        "matched_terms": [
+          "barefoot",
+          "boots",
+          "floor",
+          "forest",
+          "socks"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-064 || D:T || Line: Uhhh... hello? || Tone: N/A || Color: white || Display Method: Typewriter || Lipsync: F || Aftertime: 1.0 || Text effect: N/A\nL01E-065 || SA || Name: Beat: no response || Description: No response. || Trigger: N/A || Target: N/A || Condition: N/A || Blocking: T || Branch: N/A\nL01E-066 || D:T || Line: Hellooo? || Tone: N/A || Color: white || Display Method: Typewriter || Lipsync: F || Aftertime: 1.0 || Text effect: N/A\nL01E-067 || SA || Name: Beat: no response || Description: No response. "
+      },
+      {
+        "id": "GDD#033",
+        "section": "MOCKUP SCREENS",
+        "score": 6.21,
+        "matched_terms": [
+          "barefoot",
+          "forest"
+        ],
+        "excerpt": "Enemy                                                                      Behaviour to build\n\n                  Wolf                                                                       Roam \u00b7 circle the player \u00b7 bite \u00b7 break off\n                  E-W                                                                        when struck \u00b7 flee when hurt \u00b7 afraid of fire\n                  Introduced at distance on the forest road, where it crosses the path\n                  and ignores Tracey entirely \u2014 she is barefoot and cannot chase it. It\n                  returns as a pack at the Glade, afte"
+      },
+      {
+        "id": "GDD#026",
+        "section": "MOCKUP SCREENS",
+        "score": 5.922,
+        "matched_terms": [
+          "boots",
+          "sprint"
+        ],
+        "excerpt": "These are pre-production mockups from v0.1 and are not current builds. Two of them show equipment that is not in\nthe slice, noted below.\n\n\n\n\n Zealots close in on the road to the cabin. The buff item shown predates the\n                                 current scope.\n                                                                                        Caught in the bear trap \u2014 the branch point of Scene 07.\n\n\n\n\n                              A Furman charges. The bone axe shown is not in the slice; in Day 1 Tracey carries the pickaxe.\n\n\n\n\n\n\n\n\n\n  07 GAME ME CHANICS\n\n\nEverything below exists in th"
+      }
+    ],
+    "output": "Barefoot. On an island. Cute. / Somebody thought this was funny. / I hope whoever took them steps on something."
+  },
+  {
+    "purpose": "thought:rylee_radio",
+    "query": "Rylee radio walkie talkie conversation Glade jokes",
+    "retrieved": [
+      {
+        "id": "GDD#036",
+        "section": "CUT FROM T HE ENEMY ROST ER",
+        "score": 10.705,
+        "matched_terms": [
+          "glade",
+          "rylee",
+          "talkie",
+          "walkie"
+        ],
+        "excerpt": "Stone totems, the Cultist Priest and punji traps appear in v0.1 but not in the Day 1 script. All three are removed from\nthe slice. The priest in particular carries ranged weapons, poison and later spellcasting \u2014 a whole combat category the\nslice does not need.\n\n\n\n\n\n\n\n 09 IT EMS\n\n\nSeventeen objects. Every one of them is picked up, handed over or used somewhere in the Day 1 script.\n\n                Item                       Role in Day 1\n\n                Canteen                    The first thing Tracey wants. Drinking clears her vision and starts stamina recovery.\n                CONSUMABLE, R"
+      },
+      {
+        "id": "L01#S02",
+        "section": "Scene 02 \u2014 THE MISSING BOOTS",
+        "score": 7.215,
+        "matched_terms": [
+          "conversation",
+          "radio",
+          "rylee"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-043 || SFX || Name: Radio call louder || Description: The radio call becomes louder and easier to locate. || Audio: N/A || Source: N/A || Volume: N/A || Loop: F || Fade: N/A\nL01E-044 || D:T || Line: What in the world? || Tone: N/A || Color: white || Display Method: Typewriter || Lipsync: F || Aftertime: 1.0 || Text effect: N/A\nL01E-045 || O:3:S || Title: Who's calling? || Description: N/A || Optional: F || Marker: N/A\nL01E-046 || HA || Name: store canteen in belt carrier, notice bare feet || Description: Tr"
+      },
+      {
+        "id": "L01#S03",
+        "section": "Scene 03 \u2014 RADIO CONVERSATION WITH RYLEE",
+        "score": 6.496,
+        "matched_terms": [
+          "conversation",
+          "glade",
+          "jokes",
+          "radio",
+          "rylee"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-064 || D:T || Line: Uhhh... hello? || Tone: N/A || Color: white || Display Method: Typewriter || Lipsync: F || Aftertime: 1.0 || Text effect: N/A\nL01E-065 || SA || Name: Beat: no response || Description: No response. || Trigger: N/A || Target: N/A || Condition: N/A || Blocking: T || Branch: N/A\nL01E-066 || D:T || Line: Hellooo? || Tone: N/A || Color: white || Display Method: Typewriter || Lipsync: F || Aftertime: 1.0 || Text effect: N/A\nL01E-067 || SA || Name: Beat: no response || Description: No response. "
+      },
+      {
+        "id": "GDD#015",
+        "section": "NAMED BUT NOT PRESENT IN DAY 1",
+        "score": 5.793,
+        "matched_terms": [
+          "conversation",
+          "radio"
+        ],
+        "excerpt": "Robert, William and Shannon are talked about in Rylee's radio conversation and appear in the Polaroid photograph.\n  They need no model, no rig and no voice for the slice.\n  Amaruq and Mr. Moonlight are named in the full-game fiction and do not appear anywhere in the Day 1 script. They\n  are out of scope and are not described here.\n\n\n\n\n\n\n\n\n\n  04 GAME FLOW\n\n\nThe slice is one day, not seven. The loop below is what a player repeats scene by scene inside that day.\n\n\n\n\n                  Figure 1 \u2014 the Day 1 loop. Compared to v0.1: the manual save system is gone, and the seven-day wrapper is gone."
+      }
+    ],
+    "output": "Of course she's awake and cheerful. / Say something useful. Once. / I can hear her grinning through the static."
+  },
+  {
+    "purpose": "thought:inventory_full",
+    "query": "backpack carry limit inventory cooler drop item fifth",
+    "retrieved": [
+      {
+        "id": "L01#S02",
+        "section": "Scene 02 \u2014 THE MISSING BOOTS",
+        "score": 14.055,
+        "matched_terms": [
+          "backpack",
+          "carry",
+          "cooler",
+          "fifth",
+          "inventory",
+          "item",
+          "limit"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-043 || SFX || Name: Radio call louder || Description: The radio call becomes louder and easier to locate. || Audio: N/A || Source: N/A || Volume: N/A || Loop: F || Fade: N/A\nL01E-044 || D:T || Line: What in the world? || Tone: N/A || Color: white || Display Method: Typewriter || Lipsync: F || Aftertime: 1.0 || Text effect: N/A\nL01E-045 || O:3:S || Title: Who's calling? || Description: N/A || Optional: F || Marker: N/A\nL01E-046 || HA || Name: store canteen in belt carrier, notice bare feet || Description: Tr"
+      },
+      {
+        "id": "GDD#027",
+        "section": "MOCKUP SCREENS",
+        "score": 11.515,
+        "matched_terms": [
+          "backpack",
+          "carry",
+          "cooler",
+          "drop"
+        ],
+        "excerpt": "Carry and drop          Backpack holds a limited number of items; the player                  At the blue cooler\n                         chooses what to lose.\n\n Navigate                Deploy map and compass. Locks Tracey in place while                   From William's tent\n                         open.\n\n Swing                   Heavy, slow pickaxe blows that drain stamina.                         Pulled from the telescope frame\n\n Shoot                   M1911, then the Arisaka. Loud, scarce, and a last resort.             Vernon's cabin, then the mine infirmary\n\n Drag                    Pul"
+      },
+      {
+        "id": "GDD#008",
+        "section": "ELEVATOR PITCH \u2014 THE MECHANICS OF THE SLICE",
+        "score": 11.292,
+        "matched_terms": [
+          "backpack",
+          "carry",
+          "drop",
+          "fifth"
+        ],
+        "excerpt": "\u2022 A fixed route, hand built. Day 1 runs on one authored path through eight locations. The procedural island\n   generator that reshuffles the map every day is a full-game feature and is not in the slice \u2014 see section 12.\n \u2022 Navigation you have to stop for. A map and a compass, taken from William's tent. Deploying them locks Tracey\n   in place and exposes her, so reading the map is a decision, not a free action.\n \u2022 Combat that costs something. A pickaxe with heavy slow swings, and two firearms handed over late. Every blow\n   drains stamina. Some encounters are meant to be walked around, not won."
+      },
+      {
+        "id": "GDD#028",
+        "section": "MOCKUP SCREENS",
+        "score": 8.511,
+        "matched_terms": [
+          "fifth",
+          "inventory",
+          "item"
+        ],
+        "excerpt": "during a scripted beat.                             that always get released.\n\n\n\n\n\n\n\n System               What the player sees                           What it has to hold                    Built from\n\n Interaction          A prompt icon appears when something can       Range, line of sight, required item.   Owned FPS asset\n                      be used.\n\n Inventory            The fifth pickup is refused and Tracey         Capacity, contents, discard.           Systems Smith\n                      complains.\n\n Stamina              A bar that appears for the first time during   Current, max, "
+      }
+    ],
+    "output": "Pack's full. Something's staying. / Can't carry the world, Trace. / Choose. It's not hard. It's just annoying."
+  },
+  {
+    "purpose": "thought:wolves_first",
+    "query": "wolf roam circle bite forest road barefoot",
+    "retrieved": [
+      {
+        "id": "GDD#033",
+        "section": "MOCKUP SCREENS",
+        "score": 26.756,
+        "matched_terms": [
+          "barefoot",
+          "bite",
+          "circle",
+          "forest",
+          "road",
+          "roam",
+          "wolf"
+        ],
+        "excerpt": "Enemy                                                                      Behaviour to build\n\n                  Wolf                                                                       Roam \u00b7 circle the player \u00b7 bite \u00b7 break off\n                  E-W                                                                        when struck \u00b7 flee when hurt \u00b7 afraid of fire\n                  Introduced at distance on the forest road, where it crosses the path\n                  and ignores Tracey entirely \u2014 she is barefoot and cannot chase it. It\n                  returns as a pack at the Glade, afte"
+      },
+      {
+        "id": "L01#S05",
+        "section": "Scene 05 \u2014 THE FOREST ROAD TO THE GLADE",
+        "score": 9.063,
+        "matched_terms": [
+          "barefoot",
+          "forest",
+          "road",
+          "wolf"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-126 || PA || Name: Travel east || Description: The player travels east through the forest. || Trigger: N/A || Target: N/A || Requires: N/A || Blocking: F || Branch: N/A\n\nL01E-127 || SA || Name: Wolf crosses path || Description: A single wolf crosses the player's view at a distance, following a predefined path. It ignores Tracey. Because she is barefoot, she cannot catch it. || Trigger: N/A || Target: N/A || Condition: N/A || Blocking: F || Branch: N/A\nL01E-128 || SFX || Name: Distant wolf calls || Descripti"
+      },
+      {
+        "id": "GDD#019",
+        "section": "LOCATIONS",
+        "score": 8.799,
+        "matched_terms": [
+          "forest",
+          "road",
+          "wolf"
+        ],
+        "excerpt": "Location                                                                                   Where it appears in the\n                                                                                                                     script\n\n                          Camping site                                                                               Scenes 01\u201304\n                          The RV, two tents, William's locked tent, the bonfire, the table with the\n                          canteen, and two coolers. Everything the player learns in the first ten\n                          minute"
+      },
+      {
+        "id": "GDD#053",
+        "section": "CRITICAL FEATURES",
+        "score": 5.249,
+        "matched_terms": [
+          "forest",
+          "wolf"
+        ],
+        "excerpt": "Eighteen first-person hand animations required by the script        GoPro POV footage through DeepMotion or QuickMagic, cleaned in\n                                                                     Blender\n\n\n\n\n\n\n\n\n Feature or asset                                                               How it gets built\n\n Enemy animation sets, one per state, four enemies                              Mixamo, retargeted\n\n NPC idle and talk for Holly and Vernon; Scott unconscious                      Mixamo\n\n Animation event blockers, player and enemy                                     Systems Smith age"
+      }
+    ],
+    "output": "I fucking hate dogs. / Big dog. Big, unfriendly dog. / Don't run. Do not run."
+  },
+  {
+    "purpose": "thought:empty_glade",
+    "query": "Glade abandoned belongings scattered bonfire sleeping bags",
+    "retrieved": [
+      {
+        "id": "GDD#051",
+        "section": "CRITICAL FEATURES",
+        "score": 19.166,
+        "matched_terms": [
+          "bags",
+          "belongings",
+          "bonfire",
+          "glade",
+          "scattered",
+          "sleeping"
+        ],
+        "excerpt": "Everything needed to build the slice, with the intended method in brackets. Where an owned asset can do the job, it\ndoes the job.\n\nA. Environment and level art\n Feature or asset                                                    How it gets built\n\n Day 1 terrain, one fixed route                                      Hand-sculpted Unity Terrain. Borrow the biome textures and scatter\n                                                                     brushes from the terrain package; do not run the generator\n\n Trees, grass, rocks, soil textures                                  Terrain package as"
+      },
+      {
+        "id": "L01#S06",
+        "section": "Scene 06 \u2014 THE EMPTY GLADE",
+        "score": 12.808,
+        "matched_terms": [
+          "abandoned",
+          "bags",
+          "belongings",
+          "bonfire",
+          "glade",
+          "scattered",
+          "sleeping"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-145 || PA || Name: Enter the Glade || Description: The player enters the Glade. || Trigger: N/A || Target: N/A || Requires: N/A || Blocking: F || Branch: N/A\nL01E-146 || SA || Name: Stage abandoned Glade || Description: Stage the Glade as abandoned: belongings are scattered across the ground, the bonfire is extinguished, and the sleeping bags are in disarray. A pickaxe is embedded in the telescope frame. Tracey's boots lie near the bonfire. Near a table are a beer, a soda, and a Polaroid photograph of the g"
+      },
+      {
+        "id": "GDD#019",
+        "section": "LOCATIONS",
+        "score": 10.29,
+        "matched_terms": [
+          "abandoned",
+          "bonfire",
+          "glade"
+        ],
+        "excerpt": "Location                                                                                   Where it appears in the\n                                                                                                                     script\n\n                          Camping site                                                                               Scenes 01\u201304\n                          The RV, two tents, William's locked tent, the bonfire, the table with the\n                          canteen, and two coolers. Everything the player learns in the first ten\n                          minute"
+      },
+      {
+        "id": "GDD#037",
+        "section": "CUT FROM T HE ENEMY ROST ER",
+        "score": 6.978,
+        "matched_terms": [
+          "abandoned",
+          "glade"
+        ],
+        "excerpt": "TOOL                       Tracey in place.\n\n\n\n                Polaroid photograph        Lying near the table in the abandoned Glade. A picture of the whole group. Tracey\n                KEY ITEM                   stows it in the compass pouch and says nothing.\n\n                Inuit pickaxe              Buried in the telescope frame. Heavy, slow, medium reach, and the only weapon for\n                MELEE WEAPON               the middle of the level.\n\n\n\n\n                Matches                    In the red cooler with the radio. Emergency light source.\n                LIGHT\n\n\n\n\n            "
+      }
+    ],
+    "output": "Everything's here except everyone. / Fire's dead. Been dead a while. / Nobody packs like this. Nobody leaves like this."
+  },
+  {
+    "purpose": "thought:the_polaroid",
+    "query": "Polaroid photograph group friends camp table",
+    "retrieved": [
+      {
+        "id": "GDD#037",
+        "section": "CUT FROM T HE ENEMY ROST ER",
+        "score": 14.39,
+        "matched_terms": [
+          "group",
+          "photograph",
+          "polaroid",
+          "table"
+        ],
+        "excerpt": "TOOL                       Tracey in place.\n\n\n\n                Polaroid photograph        Lying near the table in the abandoned Glade. A picture of the whole group. Tracey\n                KEY ITEM                   stows it in the compass pouch and says nothing.\n\n                Inuit pickaxe              Buried in the telescope frame. Heavy, slow, medium reach, and the only weapon for\n                MELEE WEAPON               the middle of the level.\n\n\n\n\n                Matches                    In the red cooler with the radio. Emergency light source.\n                LIGHT\n\n\n\n\n            "
+      },
+      {
+        "id": "GDD#019",
+        "section": "LOCATIONS",
+        "score": 12.067,
+        "matched_terms": [
+          "camp",
+          "polaroid",
+          "table"
+        ],
+        "excerpt": "Location                                                                                   Where it appears in the\n                                                                                                                     script\n\n                          Camping site                                                                               Scenes 01\u201304\n                          The RV, two tents, William's locked tent, the bonfire, the table with the\n                          canteen, and two coolers. Everything the player learns in the first ten\n                          minute"
+      },
+      {
+        "id": "L01#S06",
+        "section": "Scene 06 \u2014 THE EMPTY GLADE",
+        "score": 11.593,
+        "matched_terms": [
+          "friends",
+          "group",
+          "photograph",
+          "polaroid",
+          "table"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-145 || PA || Name: Enter the Glade || Description: The player enters the Glade. || Trigger: N/A || Target: N/A || Requires: N/A || Blocking: F || Branch: N/A\nL01E-146 || SA || Name: Stage abandoned Glade || Description: Stage the Glade as abandoned: belongings are scattered across the ground, the bonfire is extinguished, and the sleeping bags are in disarray. A pickaxe is embedded in the telescope frame. Tracey's boots lie near the bonfire. Near a table are a beer, a soda, and a Polaroid photograph of the g"
+      },
+      {
+        "id": "GDD#015",
+        "section": "NAMED BUT NOT PRESENT IN DAY 1",
+        "score": 7.882,
+        "matched_terms": [
+          "photograph",
+          "polaroid"
+        ],
+        "excerpt": "Robert, William and Shannon are talked about in Rylee's radio conversation and appear in the Polaroid photograph.\n  They need no model, no rig and no voice for the slice.\n  Amaruq and Mr. Moonlight are named in the full-game fiction and do not appear anywhere in the Day 1 script. They\n  are out of scope and are not described here.\n\n\n\n\n\n\n\n\n\n  04 GAME FLOW\n\n\nThe slice is one day, not seven. The loop below is what a player repeats scene by scene inside that day.\n\n\n\n\n                  Figure 1 \u2014 the Day 1 loop. Compared to v0.1: the manual save system is gone, and the seven-day wrapper is gone."
+      }
+    ],
+    "output": "Look at us. Idiots. / That was two days ago. / I'm not even looking at the camera."
+  },
+  {
+    "purpose": "thought:pickaxe_telescope",
+    "query": "pickaxe telescope frame melee heavy swing stamina",
+    "retrieved": [
+      {
+        "id": "GDD#027",
+        "section": "MOCKUP SCREENS",
+        "score": 18.298,
+        "matched_terms": [
+          "frame",
+          "heavy",
+          "melee",
+          "pickaxe",
+          "stamina",
+          "swing",
+          "telescope"
+        ],
+        "excerpt": "Carry and drop          Backpack holds a limited number of items; the player                  At the blue cooler\n                         chooses what to lose.\n\n Navigate                Deploy map and compass. Locks Tracey in place while                   From William's tent\n                         open.\n\n Swing                   Heavy, slow pickaxe blows that drain stamina.                         Pulled from the telescope frame\n\n Shoot                   M1911, then the Arisaka. Loud, scarce, and a last resort.             Vernon's cabin, then the mine infirmary\n\n Drag                    Pul"
+      },
+      {
+        "id": "GDD#037",
+        "section": "CUT FROM T HE ENEMY ROST ER",
+        "score": 16.961,
+        "matched_terms": [
+          "frame",
+          "heavy",
+          "melee",
+          "pickaxe",
+          "stamina",
+          "telescope"
+        ],
+        "excerpt": "TOOL                       Tracey in place.\n\n\n\n                Polaroid photograph        Lying near the table in the abandoned Glade. A picture of the whole group. Tracey\n                KEY ITEM                   stows it in the compass pouch and says nothing.\n\n                Inuit pickaxe              Buried in the telescope frame. Heavy, slow, medium reach, and the only weapon for\n                MELEE WEAPON               the middle of the level.\n\n\n\n\n                Matches                    In the red cooler with the radio. Emergency light source.\n                LIGHT\n\n\n\n\n            "
+      },
+      {
+        "id": "GDD#028",
+        "section": "MOCKUP SCREENS",
+        "score": 11.083,
+        "matched_terms": [
+          "melee",
+          "pickaxe",
+          "stamina",
+          "swing"
+        ],
+        "excerpt": "during a scripted beat.                             that always get released.\n\n\n\n\n\n\n\n System               What the player sees                           What it has to hold                    Built from\n\n Interaction          A prompt icon appears when something can       Range, line of sight, required item.   Owned FPS asset\n                      be used.\n\n Inventory            The fifth pickup is refused and Tracey         Capacity, contents, discard.           Systems Smith\n                      complains.\n\n Stamina              A bar that appears for the first time during   Current, max, "
+      },
+      {
+        "id": "L01#S06",
+        "section": "Scene 06 \u2014 THE EMPTY GLADE",
+        "score": 10.364,
+        "matched_terms": [
+          "frame",
+          "melee",
+          "pickaxe",
+          "telescope"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-145 || PA || Name: Enter the Glade || Description: The player enters the Glade. || Trigger: N/A || Target: N/A || Requires: N/A || Blocking: F || Branch: N/A\nL01E-146 || SA || Name: Stage abandoned Glade || Description: Stage the Glade as abandoned: belongings are scattered across the ground, the bonfire is extinguished, and the sleeping bags are in disarray. A pickaxe is embedded in the telescope frame. Tracey's boots lie near the bonfire. Near a table are a beer, a soda, and a Polaroid photograph of the g"
+      }
+    ],
+    "output": "Somebody drove this in hard. / Heavy. Good. Heavy is good. / This is a tool. It's a tool."
+  },
+  {
+    "purpose": "thought:bear_trap",
+    "query": "bear trap branch road ambush health hazard",
+    "retrieved": [
+      {
+        "id": "GDD#033",
+        "section": "MOCKUP SCREENS",
+        "score": 17.944,
+        "matched_terms": [
+          "ambush",
+          "bear",
+          "branch",
+          "health",
+          "road",
+          "trap"
+        ],
+        "excerpt": "Enemy                                                                      Behaviour to build\n\n                  Wolf                                                                       Roam \u00b7 circle the player \u00b7 bite \u00b7 break off\n                  E-W                                                                        when struck \u00b7 flee when hurt \u00b7 afraid of fire\n                  Introduced at distance on the forest road, where it crosses the path\n                  and ignores Tracey entirely \u2014 she is barefoot and cannot chase it. It\n                  returns as a pack at the Glade, afte"
+      },
+      {
+        "id": "L01#S07",
+        "section": "Scene 07 \u2014 THE ROAD TO VERNON'S CABIN",
+        "score": 15.955,
+        "matched_terms": [
+          "ambush",
+          "bear",
+          "branch",
+          "health",
+          "road",
+          "trap"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-174 || PA || Name: Follow route to cabin || Description: The player follows the route toward the cabin. || Trigger: N/A || Target: N/A || Requires: N/A || Blocking: F || Branch: N/A\nL01E-175 || SA || Name: Place bear trap || Description: Place a bear trap on the path. The first trap cannot kill Tracey, but it removes a large amount of health and stamina. || Trigger: N/A || Target: N/A || Condition: N/A || Blocking: F || Branch: N/A\nL01E-176 || OL || Name: Branch A: zealot ambush || Description: BRANCH A: If"
+      },
+      {
+        "id": "GDD#034",
+        "section": "MOCKUP SCREENS",
+        "score": 15.097,
+        "matched_terms": [
+          "bear",
+          "branch",
+          "health",
+          "road",
+          "trap"
+        ],
+        "excerpt": "E-S                                                                        whistle to summon \u00b7 never lose interest once\n                  Branch B. If the player is caught in the trap, the zealots do not come.    alerted\n                  Two spotters patrol at distance with flashlights instead, and stay non-\n                  hostile unless approached. Fighting them while injured is meant to kill\n                  you.\n\n\n\n\n                  Furman                                                                     Charge \u00b7 heavy bites \u00b7 raises fear on approach\n                  E-F           "
+      },
+      {
+        "id": "GDD#026",
+        "section": "MOCKUP SCREENS",
+        "score": 9.165,
+        "matched_terms": [
+          "bear",
+          "branch",
+          "road",
+          "trap"
+        ],
+        "excerpt": "These are pre-production mockups from v0.1 and are not current builds. Two of them show equipment that is not in\nthe slice, noted below.\n\n\n\n\n Zealots close in on the road to the cabin. The buff item shown predates the\n                                 current scope.\n                                                                                        Caught in the bear trap \u2014 the branch point of Scene 07.\n\n\n\n\n                              A Furman charges. The bone axe shown is not in the slice; in Day 1 Tracey carries the pickaxe.\n\n\n\n\n\n\n\n\n\n  07 GAME ME CHANICS\n\n\nEverything below exists in th"
+      }
+    ],
+    "output": "Teeth in the dirt. / Somebody put that there. On purpose. / That's not for animals."
+  },
+  {
+    "purpose": "thought:cultists_first",
+    "query": "cultist zealot spotter lamp whistle robes altar",
+    "retrieved": [
+      {
+        "id": "GDD#033",
+        "section": "MOCKUP SCREENS",
+        "score": 13.699,
+        "matched_terms": [
+          "cultist",
+          "lamp",
+          "spotter",
+          "zealot"
+        ],
+        "excerpt": "Enemy                                                                      Behaviour to build\n\n                  Wolf                                                                       Roam \u00b7 circle the player \u00b7 bite \u00b7 break off\n                  E-W                                                                        when struck \u00b7 flee when hurt \u00b7 afraid of fire\n                  Introduced at distance on the forest road, where it crosses the path\n                  and ignores Tracey entirely \u2014 she is barefoot and cannot chase it. It\n                  returns as a pack at the Glade, afte"
+      },
+      {
+        "id": "GDD#052",
+        "section": "CRITICAL FEATURES",
+        "score": 8.546,
+        "matched_terms": [
+          "cultist",
+          "spotter",
+          "zealot"
+        ],
+        "excerpt": "Flak tower, distance silhouette only                                Blender, low detail, far LOD\n\n Church exterior and entrance                                        Blender\n\n Hill of Crosses, Virgin Mary statue                                 Blender, kitbashed from one cross mesh\n\n Lighting sets: morning, dusk, night                                 Baked lightmaps, one per scene, hand-authored\n\n\nB. Characters and creatures\n Feature or asset                                                    How it gets built\n\n Tracey first-person rig \u2014 arms and hands only                       FPS asset rig"
+      },
+      {
+        "id": "GDD#053",
+        "section": "CRITICAL FEATURES",
+        "score": 8.478,
+        "matched_terms": [
+          "spotter",
+          "whistle",
+          "zealot"
+        ],
+        "excerpt": "Eighteen first-person hand animations required by the script        GoPro POV footage through DeepMotion or QuickMagic, cleaned in\n                                                                     Blender\n\n\n\n\n\n\n\n\n Feature or asset                                                               How it gets built\n\n Enemy animation sets, one per state, four enemies                              Mixamo, retargeted\n\n NPC idle and talk for Holly and Vernon; Scott unconscious                      Mixamo\n\n Animation event blockers, player and enemy                                     Systems Smith age"
+      },
+      {
+        "id": "L01#S00",
+        "section": "Scene 00 \u2014 Front matter",
+        "score": 7.396,
+        "matched_terms": [
+          "cultist",
+          "spotter",
+          "zealot"
+        ],
+        "excerpt": "L01 \u2014 MR. MOONLIGHT, DAY 1\n     Converted to SLDD format from the previous EVT-### working draft.\n\n     Conversion notes:\n       - Event IDs map one to one: EVT-001 becomes L01E-001. No event was\n         reordered, merged or dropped.\n       - Old NOTE events became comments, which is what the SLDD reserves\n         comments for. Their IDs are retired and not reused: L01E-196,\n         L01E-206, L01E-224.\n       - Old BEAT events are mapped to SA with Blocking: T. The SLDD has no\n         BEAT type; consider adding one.\n       - Old OUTLINE events use the type OL, which is NOT yet in the SLDD "
+      }
+    ],
+    "output": "People. Those are people. / Lamps. They're looking for something. / Down. Get down."
+  },
+  {
+    "purpose": "thought:vernon_cabin",
+    "query": "Vernon cabin crosses hermit orthodox religion door",
+    "retrieved": [
+      {
+        "id": "GDD#025",
+        "section": "THEMES",
+        "score": 19.414,
+        "matched_terms": [
+          "cabin",
+          "crosses",
+          "door",
+          "orthodox",
+          "religion",
+          "vernon"
+        ],
+        "excerpt": "Theme                               How Day 1 handles it\n\n Substance abuse                     The player is not told Tracey is an addict. Day 1 opens on a hangover played for comedy, and ends\n                                     with Vernon handing her morphine and Holly handing her marijuana. Neither is explained. The system\n                                     underneath them arrives properly on Day 2.\n\n Religion                            Orthodox Christian imagery from the first Russian settlers of Alaska: crosses nailed to a cabin door, a\n                                     Virgin Mary "
+      },
+      {
+        "id": "GDD#020",
+        "section": "LOCATIONS",
+        "score": 11.632,
+        "matched_terms": [
+          "cabin",
+          "crosses",
+          "door",
+          "vernon"
+        ],
+        "excerpt": "and a light in the distance.\n\n                    Vernon's cabin                                                                    Scenes 07\u201308\n                    More of a box than a cabin, warm inside, door covered in crosses. Holly\n                    and Vernon are here. It is the only safe room in the level.\n\n\n\n\n                    Flak tower                                                                        Scene 08\n                    Visible in the distance. Cannot be entered. If the player walks toward it the\n                    game communicates that it is full of cultists and "
+      },
+      {
+        "id": "L01#S07",
+        "section": "Scene 07 \u2014 THE ROAD TO VERNON'S CABIN",
+        "score": 7.838,
+        "matched_terms": [
+          "cabin",
+          "crosses",
+          "door"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-174 || PA || Name: Follow route to cabin || Description: The player follows the route toward the cabin. || Trigger: N/A || Target: N/A || Requires: N/A || Blocking: F || Branch: N/A\nL01E-175 || SA || Name: Place bear trap || Description: Place a bear trap on the path. The first trap cannot kill Tracey, but it removes a large amount of health and stamina. || Trigger: N/A || Target: N/A || Condition: N/A || Blocking: F || Branch: N/A\nL01E-176 || OL || Name: Branch A: zealot ambush || Description: BRANCH A: If"
+      },
+      {
+        "id": "GDD#039",
+        "section": "CONSUMABLE",
+        "score": 6.018,
+        "matched_terms": [
+          "cabin",
+          "vernon"
+        ],
+        "excerpt": "Mining lamp                    Obtained at the mine entrance. Without it the tunnel is not navigable.\n                LIGHT\n\n\n\n\n                M1911 pistol                   Given by Vernon at the cabin. Reliable, high stopping power, and very loud in a forest\n                FIREARM                        full of people listening.\n\n\n\n                Morphine                       Given by Vernon alongside the pistol. Fast healing and damage reduction, at the cost\n                SUBSTANCE                      of nausea and rising fear.\n\n                Marijuana                      Given by"
+      }
+    ],
+    "output": "Crosses. Every inch of the door. / Somebody's very worried about something. / That's not decoration. That's a fence."
+  },
+  {
+    "purpose": "thought:holly_reunion",
+    "query": "Holly cabin alive marijuana friend reunion",
+    "retrieved": [
+      {
+        "id": "GDD#039",
+        "section": "CONSUMABLE",
+        "score": 8.777,
+        "matched_terms": [
+          "cabin",
+          "holly",
+          "marijuana"
+        ],
+        "excerpt": "Mining lamp                    Obtained at the mine entrance. Without it the tunnel is not navigable.\n                LIGHT\n\n\n\n\n                M1911 pistol                   Given by Vernon at the cabin. Reliable, high stopping power, and very loud in a forest\n                FIREARM                        full of people listening.\n\n\n\n                Morphine                       Given by Vernon alongside the pistol. Fast healing and damage reduction, at the cost\n                SUBSTANCE                      of nausea and rising fear.\n\n                Marijuana                      Given by"
+      },
+      {
+        "id": "GDD#025",
+        "section": "THEMES",
+        "score": 6.994,
+        "matched_terms": [
+          "cabin",
+          "holly",
+          "marijuana"
+        ],
+        "excerpt": "Theme                               How Day 1 handles it\n\n Substance abuse                     The player is not told Tracey is an addict. Day 1 opens on a hangover played for comedy, and ends\n                                     with Vernon handing her morphine and Holly handing her marijuana. Neither is explained. The system\n                                     underneath them arrives properly on Day 2.\n\n Religion                            Orthodox Christian imagery from the first Russian settlers of Alaska: crosses nailed to a cabin door, a\n                                     Virgin Mary "
+      },
+      {
+        "id": "GDD#010",
+        "section": "COMPARABLE GAMES",
+        "score": 6.835,
+        "matched_terms": [
+          "friend",
+          "holly"
+        ],
+        "excerpt": "the uncle of Holly, your childhood friend.\nYou are Tracey. Twenty-something, a history major who dropped out, in possession of some nasty habits and a\npermanently foul mouth. You did not want to come. Your friends insisted far too much. Fine. One more time.\n\n\nCamping as a kid was fun, but now everything feels heavy and stupid. Maybe I should go easy this\ntime\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\nGreat, I feel great! Give me a minute\u2026 bleehh, false puke alarm everybody\u2026 hey! Hello? Not funny guys, where are my\nboots?\u2026 where\u2026 where is everyone?\n\n\n\n\n\n\n\n\n\n 03 CAST\n\n\nFive characters exist in Day 1. Three more are named in"
+      },
+      {
+        "id": "GDD#013",
+        "section": "AT T HE CABIN",
+        "score": 6.826,
+        "matched_terms": [
+          "cabin",
+          "marijuana"
+        ],
+        "excerpt": "Miss Perfect, and exhausting about it. She is at Vernon's cabin when Tracey arrives, and she is the one who\n                       hands over the marijuana.\n\n\n\n\n                       Scott"
+      }
+    ],
+    "output": "Holly. Holly's alive. / Don't cry. Do not cry. / She looks worse than me. That's saying something."
+  },
+  {
+    "purpose": "thought:the_mine",
+    "query": "mine mineshaft dark lamp linear route infirmary",
+    "retrieved": [
+      {
+        "id": "L01#S09",
+        "section": "Scene 09 \u2014 THE MINE",
+        "score": 18.533,
+        "matched_terms": [
+          "infirmary",
+          "lamp",
+          "linear",
+          "mine",
+          "route"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-197 || OL || Name: Reach mine entrance || Description: The player reaches the mine entrance. || Intended Type: N/A\nL01E-198 || OL || Name: Obtain mining lamp || Description: The player obtains or activates a mining lamp. || Intended Type: N/A\nL01E-199 || OL || Name: Linear mine route || Description: The mine route is mostly linear. || Intended Type: N/A\nL01E-200 || OL || Name: Cultists in the mine || Description: The player encounters and fights cultists inside the mine. || Intended Type: N/A\nL01E-201 || OL"
+      },
+      {
+        "id": "GDD#020",
+        "section": "LOCATIONS",
+        "score": 14.893,
+        "matched_terms": [
+          "infirmary",
+          "lamp",
+          "linear",
+          "mineshaft"
+        ],
+        "excerpt": "and a light in the distance.\n\n                    Vernon's cabin                                                                    Scenes 07\u201308\n                    More of a box than a cabin, warm inside, door covered in crosses. Holly\n                    and Vernon are here. It is the only safe room in the level.\n\n\n\n\n                    Flak tower                                                                        Scene 08\n                    Visible in the distance. Cannot be entered. If the player walks toward it the\n                    game communicates that it is full of cultists and "
+      },
+      {
+        "id": "GDD#051",
+        "section": "CRITICAL FEATURES",
+        "score": 10.023,
+        "matched_terms": [
+          "infirmary",
+          "linear",
+          "mine",
+          "route"
+        ],
+        "excerpt": "Everything needed to build the slice, with the intended method in brackets. Where an owned asset can do the job, it\ndoes the job.\n\nA. Environment and level art\n Feature or asset                                                    How it gets built\n\n Day 1 terrain, one fixed route                                      Hand-sculpted Unity Terrain. Borrow the biome textures and scatter\n                                                                     brushes from the terrain package; do not run the generator\n\n Trees, grass, rocks, soil textures                                  Terrain package as"
+      },
+      {
+        "id": "GDD#040",
+        "section": "SUBSTANCE",
+        "score": 7.495,
+        "matched_terms": [
+          "infirmary",
+          "mine"
+        ],
+        "excerpt": "Arisaka rifle                  In the mine infirmary next to Scott. Long range, high damage, and awkward to use\n                FIREARM                        while dragging a stretcher.\n\n\n\n\n                Stretcher                      In the infirmary. Scott goes on it, and the last third of the level is spent pulling it."
+      }
+    ],
+    "output": "Dark. Properly dark. / Lamp's not much. Lamp's what we have. / It smells like wet iron."
+  },
+  {
+    "purpose": "thought:finding_scott",
+    "query": "Scott unconscious infirmary rescue first aid",
+    "retrieved": [
+      {
+        "id": "L01#S09",
+        "section": "Scene 09 \u2014 THE MINE",
+        "score": 15.357,
+        "matched_terms": [
+          "infirmary",
+          "rescue",
+          "scott",
+          "unconscious"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-197 || OL || Name: Reach mine entrance || Description: The player reaches the mine entrance. || Intended Type: N/A\nL01E-198 || OL || Name: Obtain mining lamp || Description: The player obtains or activates a mining lamp. || Intended Type: N/A\nL01E-199 || OL || Name: Linear mine route || Description: The mine route is mostly linear. || Intended Type: N/A\nL01E-200 || OL || Name: Cultists in the mine || Description: The player encounters and fights cultists inside the mine. || Intended Type: N/A\nL01E-201 || OL"
+      },
+      {
+        "id": "GDD#040",
+        "section": "SUBSTANCE",
+        "score": 8.412,
+        "matched_terms": [
+          "infirmary",
+          "scott"
+        ],
+        "excerpt": "Arisaka rifle                  In the mine infirmary next to Scott. Long range, high damage, and awkward to use\n                FIREARM                        while dragging a stretcher.\n\n\n\n\n                Stretcher                      In the infirmary. Scott goes on it, and the last third of the level is spent pulling it."
+      },
+      {
+        "id": "GDD#027",
+        "section": "MOCKUP SCREENS",
+        "score": 7.383,
+        "matched_terms": [
+          "first",
+          "infirmary",
+          "scott"
+        ],
+        "excerpt": "Carry and drop          Backpack holds a limited number of items; the player                  At the blue cooler\n                         chooses what to lose.\n\n Navigate                Deploy map and compass. Locks Tracey in place while                   From William's tent\n                         open.\n\n Swing                   Heavy, slow pickaxe blows that drain stamina.                         Pulled from the telescope frame\n\n Shoot                   M1911, then the Arisaka. Loud, scarce, and a last resort.             Vernon's cabin, then the mine infirmary\n\n Drag                    Pul"
+      },
+      {
+        "id": "GDD#053",
+        "section": "CRITICAL FEATURES",
+        "score": 6.248,
+        "matched_terms": [
+          "first",
+          "scott",
+          "unconscious"
+        ],
+        "excerpt": "Eighteen first-person hand animations required by the script        GoPro POV footage through DeepMotion or QuickMagic, cleaned in\n                                                                     Blender\n\n\n\n\n\n\n\n\n Feature or asset                                                               How it gets built\n\n Enemy animation sets, one per state, four enemies                              Mixamo, retargeted\n\n NPC idle and talk for Holly and Vernon; Scott unconscious                      Mixamo\n\n Animation event blockers, player and enemy                                     Systems Smith age"
+      }
+    ],
+    "output": "Scott. Scott, wake up. / He's breathing. He's breathing. / That's a lot of blood for one person."
+  },
+  {
+    "purpose": "thought:dragging_stretcher",
+    "query": "stretcher drag Scott movement restricted combat",
+    "retrieved": [
+      {
+        "id": "GDD#027",
+        "section": "MOCKUP SCREENS",
+        "score": 18.127,
+        "matched_terms": [
+          "combat",
+          "drag",
+          "movement",
+          "restricted",
+          "scott",
+          "stretcher"
+        ],
+        "excerpt": "Carry and drop          Backpack holds a limited number of items; the player                  At the blue cooler\n                         chooses what to lose.\n\n Navigate                Deploy map and compass. Locks Tracey in place while                   From William's tent\n                         open.\n\n Swing                   Heavy, slow pickaxe blows that drain stamina.                         Pulled from the telescope frame\n\n Shoot                   M1911, then the Arisaka. Loud, scarce, and a last resort.             Vernon's cabin, then the mine infirmary\n\n Drag                    Pul"
+      },
+      {
+        "id": "L01#S09",
+        "section": "Scene 09 \u2014 THE MINE",
+        "score": 10.088,
+        "matched_terms": [
+          "combat",
+          "scott",
+          "stretcher"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-197 || OL || Name: Reach mine entrance || Description: The player reaches the mine entrance. || Intended Type: N/A\nL01E-198 || OL || Name: Obtain mining lamp || Description: The player obtains or activates a mining lamp. || Intended Type: N/A\nL01E-199 || OL || Name: Linear mine route || Description: The mine route is mostly linear. || Intended Type: N/A\nL01E-200 || OL || Name: Cultists in the mine || Description: The player encounters and fights cultists inside the mine. || Intended Type: N/A\nL01E-201 || OL"
+      },
+      {
+        "id": "GDD#014",
+        "section": "FOUND IN T HE MINE",
+        "score": 8.336,
+        "matched_terms": [
+          "drag",
+          "stretcher"
+        ],
+        "excerpt": "Dodged the draft and still wants to join the air force. He transmits once on the radio, and after that he is an\n                       unconscious body on a stretcher that the player has to drag out.\n\n\n\n\n                       Vernon\n                       AT T HE CABIN, T HEN ON T HE RADIO\n                       Holly's uncle, the island's only resident. Tubercular, armed, and the only person who behaves like he knows\n                       what is happening. He gives Tracey the M1911 and the morphine, points her at the mine, and later creates\n                       the distraction that lets "
+      },
+      {
+        "id": "GDD#040",
+        "section": "SUBSTANCE",
+        "score": 7.806,
+        "matched_terms": [
+          "scott",
+          "stretcher"
+        ],
+        "excerpt": "Arisaka rifle                  In the mine infirmary next to Scott. Long range, high damage, and awkward to use\n                FIREARM                        while dragging a stretcher.\n\n\n\n\n                Stretcher                      In the infirmary. Scott goes on it, and the last third of the level is spent pulling it."
+      }
+    ],
+    "output": "Heavier than he looks. / Slow. Everything's slow now. / Can't fight and pull. Can't do both."
+  },
+  {
+    "purpose": "thought:nightfall",
+    "query": "night darkness three in the morning shelter North Star church",
+    "retrieved": [
+      {
+        "id": "L01#S10",
+        "section": "Scene 10 \u2014 THE NIGHT ESCAPE",
+        "score": 19.972,
+        "matched_terms": [
+          "church",
+          "darkness",
+          "night",
+          "north",
+          "shelter",
+          "star"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-207 || OL || Name: Full darkness || Description: It is now fully dark outside. || Intended Type: N/A\nL01E-208 || SFX || Name: Whistles, wolves, flare || Description: Distant whistles, wolves, and a flare signal can be heard or seen. || Audio: N/A || Source: N/A || Volume: N/A || Loop: F || Fade: N/A\nL01E-209 || OL || Name: Vernon radio contact || Description: Vernon contacts Tracey by radio. || Intended Type: N/A\nL01E-210 || OL || Name: Follow the North Star || Description: Vernon tells her to head north an"
+      },
+      {
+        "id": "GDD#007",
+        "section": "ELEVATOR PITCH \u2014 THE FICTION",
+        "score": 12.61,
+        "matched_terms": [
+          "morning",
+          "night",
+          "shelter",
+          "three"
+        ],
+        "excerpt": "A group of friends, a weeklong camping trip, a remote Alaskan island. Trying to have one good last time together\nbefore the important adulthood changes arrive. Something goes wrong.\nYou are Tracey, a grumpy drug addict trying to save her kidnapped friends from a cult that will sacrifice them at the\nend of the week. There is something about the island: each night its terrain shifts into something deadly, and every\nnight it forces you to find shelter before three in the morning.\nDay 1 is where none of that is known yet. Tracey wakes up with a hangover and no boots, and spends a morning\nbeing ann"
+      },
+      {
+        "id": "GDD#060",
+        "section": "CRITICAL FEATURES",
+        "score": 7.864,
+        "matched_terms": [
+          "church",
+          "night",
+          "three"
+        ],
+        "excerpt": "Mon 17 \u2013 Sun 23           Steps 5 and 6a. Full route walkable. Inventory, stamina,       Enemy models and animation sets. Lighting sets\n Aug                       fear, navigation, melee.                                       baked.\n\n\n\n\n\n\n\n\nDates                  Agent track \u2014 code                                             My track \u2014 art, audio, writing\n\nMon 24 \u2013 Sun 30        Step 6b. Four enemies live. Bear-trap branches. Escort.        Audio pass. UI pass. Church, Hill of Crosses, flak tower\nAug                    Night escape.                                                  silhouette.\n"
+      },
+      {
+        "id": "GDD#022",
+        "section": "KEYWORDS",
+        "score": 7.829,
+        "matched_terms": [
+          "darkness",
+          "night"
+        ],
+        "excerpt": "Substance abuse \u00b7 punk-acid style \u00b7 foul language \u00b7 crude combat \u00b7 claustrophobic darkness \u00b7 item management \u00b7 exploration\n\u00b7 regret \u00b7 monsters \u00b7 traps \u00b7 hide and seek \u00b7 objective centric \u00b7 night sky"
+      }
+    ],
+    "output": "Sun's going. Sun's going fast. / That's not how the sky should look. / Three in the morning. Somebody said three."
+  },
+  {
+    "purpose": "stage:1",
+    "query": "scene 1 WAKING AT THE CAMPSITE",
+    "retrieved": [
+      {
+        "id": "GDD#058",
+        "section": "CRITICAL FEATURES",
+        "score": 4.069,
+        "matched_terms": [
+          "campsite",
+          "scene"
+        ],
+        "excerpt": "3        Map what I already own                                                                       package-map.md exists and I have read it\n          A read-only pass over the FPS package and the terrain package. Find the extension\n          points, the prefabs that matter and the files that must not be touched. Decide wrap or\n          modify for each one, in writing.\n\n 4        Build the script runner                                                                      Scene 01 plays start to finish, driven\n          The parser and the event system that turns the text file into a playing "
+      },
+      {
+        "id": "L01#S01",
+        "section": "Scene 01 \u2014 WAKING AT THE CAMPSITE",
+        "score": 4.046,
+        "matched_terms": [
+          "campsite",
+          "scene",
+          "waking"
+        ],
+        "excerpt": "============================================================================= -->\n\n\nL01E-001 || VFX:PV || Name: Black screen || Description: The camera view is completely dark. || Execution: after the player starts a new game from the main menu, the black screen is already active || Duration: N/A || Intensity: N/A || Layer: N/A\nL01E-000 || VFX:UI || Name: Black screen || Description: after the player starts a new game from the main menu, the black screen is already active. All UI elements (except the subtitle text) are black. || Execution: N/A\nL01E-000 || CB:T || Name: Camera blocked from star"
+      },
+      {
+        "id": "GDD#051",
+        "section": "CRITICAL FEATURES",
+        "score": 3.559,
+        "matched_terms": [
+          "campsite",
+          "scene"
+        ],
+        "excerpt": "Everything needed to build the slice, with the intended method in brackets. Where an owned asset can do the job, it\ndoes the job.\n\nA. Environment and level art\n Feature or asset                                                    How it gets built\n\n Day 1 terrain, one fixed route                                      Hand-sculpted Unity Terrain. Borrow the biome textures and scatter\n                                                                     brushes from the terrain package; do not run the generator\n\n Trees, grass, rocks, soil textures                                  Terrain package as"
+      }
+    ],
+    "output": "Dawn at the campsite. Tracey is face down in a tent she does not remember getting into, hungover badly enough that it is funny to everyone except her. A cheap Seiko alarm is going off somewhere near her head and will not stop. She is alone. Nothing supernatural has happened yet a"
+  },
+  {
+    "purpose": "stage:2",
+    "query": "scene 2 THE MISSING BOOTS",
+    "retrieved": [
+      {
+        "id": "L01#S02",
+        "section": "Scene 02 \u2014 THE MISSING BOOTS",
+        "score": 5.615,
+        "matched_terms": [
+          "boots",
+          "missing",
+          "scene"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-043 || SFX || Name: Radio call louder || Description: The radio call becomes louder and easier to locate. || Audio: N/A || Source: N/A || Volume: N/A || Loop: F || Fade: N/A\nL01E-044 || D:T || Line: What in the world? || Tone: N/A || Color: white || Display Method: Typewriter || Lipsync: F || Aftertime: 1.0 || Text effect: N/A\nL01E-045 || O:3:S || Title: Who's calling? || Description: N/A || Optional: F || Marker: N/A\nL01E-046 || HA || Name: store canteen in belt carrier, notice bare feet || Description: Tr"
+      },
+      {
+        "id": "GDD#019",
+        "section": "LOCATIONS",
+        "score": 4.197,
+        "matched_terms": [
+          "boots",
+          "scene"
+        ],
+        "excerpt": "Location                                                                                   Where it appears in the\n                                                                                                                     script\n\n                          Camping site                                                                               Scenes 01\u201304\n                          The RV, two tents, William's locked tent, the bonfire, the table with the\n                          canteen, and two coolers. Everything the player learns in the first ten\n                          minute"
+      },
+      {
+        "id": "L01#S06",
+        "section": "Scene 06 \u2014 THE EMPTY GLADE",
+        "score": 3.252,
+        "matched_terms": [
+          "boots",
+          "scene"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-145 || PA || Name: Enter the Glade || Description: The player enters the Glade. || Trigger: N/A || Target: N/A || Requires: N/A || Blocking: F || Branch: N/A\nL01E-146 || SA || Name: Stage abandoned Glade || Description: Stage the Glade as abandoned: belongings are scattered across the ground, the bonfire is extinguished, and the sleeping bags are in disarray. A pickaxe is embedded in the telescope frame. Tracey's boots lie near the bonfire. Near a table are a beer, a soda, and a Polaroid photograph of the g"
+      }
+    ],
+    "output": "Outside, minutes later. Her boots are gone from where she left them. She is standing in wet socks on cold ground working out that this is now her whole day. Play the indignity, not the danger. She thinks a friend did this as a joke."
+  },
+  {
+    "purpose": "stage:3",
+    "query": "scene 3 RADIO CONVERSATION WITH RYLEE",
+    "retrieved": [
+      {
+        "id": "L01#S02",
+        "section": "Scene 02 \u2014 THE MISSING BOOTS",
+        "score": 7.81,
+        "matched_terms": [
+          "conversation",
+          "radio",
+          "rylee",
+          "scene"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-043 || SFX || Name: Radio call louder || Description: The radio call becomes louder and easier to locate. || Audio: N/A || Source: N/A || Volume: N/A || Loop: F || Fade: N/A\nL01E-044 || D:T || Line: What in the world? || Tone: N/A || Color: white || Display Method: Typewriter || Lipsync: F || Aftertime: 1.0 || Text effect: N/A\nL01E-045 || O:3:S || Title: Who's calling? || Description: N/A || Optional: F || Marker: N/A\nL01E-046 || HA || Name: store canteen in belt carrier, notice bare feet || Description: Tr"
+      },
+      {
+        "id": "GDD#015",
+        "section": "NAMED BUT NOT PRESENT IN DAY 1",
+        "score": 7.659,
+        "matched_terms": [
+          "conversation",
+          "radio",
+          "scene"
+        ],
+        "excerpt": "Robert, William and Shannon are talked about in Rylee's radio conversation and appear in the Polaroid photograph.\n  They need no model, no rig and no voice for the slice.\n  Amaruq and Mr. Moonlight are named in the full-game fiction and do not appear anywhere in the Day 1 script. They\n  are out of scope and are not described here.\n\n\n\n\n\n\n\n\n\n  04 GAME FLOW\n\n\nThe slice is one day, not seven. The loop below is what a player repeats scene by scene inside that day.\n\n\n\n\n                  Figure 1 \u2014 the Day 1 loop. Compared to v0.1: the manual save system is gone, and the seven-day wrapper is gone."
+      },
+      {
+        "id": "GDD#052",
+        "section": "CRITICAL FEATURES",
+        "score": 5.518,
+        "matched_terms": [
+          "radio",
+          "rylee",
+          "scene"
+        ],
+        "excerpt": "Flak tower, distance silhouette only                                Blender, low detail, far LOD\n\n Church exterior and entrance                                        Blender\n\n Hill of Crosses, Virgin Mary statue                                 Blender, kitbashed from one cross mesh\n\n Lighting sets: morning, dusk, night                                 Baked lightmaps, one per scene, hand-authored\n\n\nB. Characters and creatures\n Feature or asset                                                    How it gets built\n\n Tracey first-person rig \u2014 arms and hands only                       FPS asset rig"
+      }
+    ],
+    "output": "The walkie talkie. Rylee is somewhere else on the island and in a much better mood. This is the longest conversation in the level and the only one where Tracey is comfortable. The two of them have known each other a long time and insult each other fluently; the affection is under"
+  },
+  {
+    "purpose": "stage:4",
+    "query": "scene 4 WILL'S TENT AND THE COMPASS",
+    "retrieved": [
+      {
+        "id": "L01#S04",
+        "section": "Scene 04 \u2014 WILL'S TENT AND THE COMPASS",
+        "score": 13.131,
+        "matched_terms": [
+          "compass",
+          "scene",
+          "tent",
+          "will's"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-108 || PA || Name: Try locked tent || Description: The player attempts to open William's tent without the key. || Trigger: N/A || Target: N/A || Requires: N/A || Blocking: F || Branch: N/A\nL01E-109 || T:T || Line: The key was under the rug, according to the cow. || Color: white || Display Method: Typewriter || Aftertime: 1.0 || Text effect: N/A\n\n\nL01E-110 || PA || Name: Interact with RV rug || Description: The player interacts with the rug beneath the RV. || Trigger: N/A || Target: N/A || Requires: N/A || B"
+      },
+      {
+        "id": "GDD#036",
+        "section": "CUT FROM T HE ENEMY ROST ER",
+        "score": 7.06,
+        "matched_terms": [
+          "compass",
+          "tent"
+        ],
+        "excerpt": "Stone totems, the Cultist Priest and punji traps appear in v0.1 but not in the Day 1 script. All three are removed from\nthe slice. The priest in particular carries ranged weapons, poison and later spellcasting \u2014 a whole combat category the\nslice does not need.\n\n\n\n\n\n\n\n 09 IT EMS\n\n\nSeventeen objects. Every one of them is picked up, handed over or used somewhere in the Day 1 script.\n\n                Item                       Role in Day 1\n\n                Canteen                    The first thing Tracey wants. Drinking clears her vision and starts stamina recovery.\n                CONSUMABLE, R"
+      },
+      {
+        "id": "GDD#019",
+        "section": "LOCATIONS",
+        "score": 5.193,
+        "matched_terms": [
+          "scene",
+          "tent"
+        ],
+        "excerpt": "Location                                                                                   Where it appears in the\n                                                                                                                     script\n\n                          Camping site                                                                               Scenes 01\u201304\n                          The RV, two tents, William's locked tent, the bonfire, the table with the\n                          canteen, and two coolers. Everything the player learns in the first ten\n                          minute"
+      }
+    ],
+    "output": "Inside William's tent, uninvited. She is taking his map and compass because she needs them, and being brisk about it so she does not have to think about why his tent is empty. Businesslike. Two short lines, both to herself."
+  },
+  {
+    "purpose": "stage:5",
+    "query": "scene 5 THE FOREST ROAD TO THE GLADE",
+    "retrieved": [
+      {
+        "id": "GDD#019",
+        "section": "LOCATIONS",
+        "score": 10.047,
+        "matched_terms": [
+          "forest",
+          "glade",
+          "road",
+          "scene"
+        ],
+        "excerpt": "Location                                                                                   Where it appears in the\n                                                                                                                     script\n\n                          Camping site                                                                               Scenes 01\u201304\n                          The RV, two tents, William's locked tent, the bonfire, the table with the\n                          canteen, and two coolers. Everything the player learns in the first ten\n                          minute"
+      },
+      {
+        "id": "GDD#033",
+        "section": "MOCKUP SCREENS",
+        "score": 8.974,
+        "matched_terms": [
+          "forest",
+          "glade",
+          "road"
+        ],
+        "excerpt": "Enemy                                                                      Behaviour to build\n\n                  Wolf                                                                       Roam \u00b7 circle the player \u00b7 bite \u00b7 break off\n                  E-W                                                                        when struck \u00b7 flee when hurt \u00b7 afraid of fire\n                  Introduced at distance on the forest road, where it crosses the path\n                  and ignores Tracey entirely \u2014 she is barefoot and cannot chase it. It\n                  returns as a pack at the Glade, afte"
+      },
+      {
+        "id": "L01#S05",
+        "section": "Scene 05 \u2014 THE FOREST ROAD TO THE GLADE",
+        "score": 7.132,
+        "matched_terms": [
+          "forest",
+          "glade",
+          "road",
+          "scene"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-126 || PA || Name: Travel east || Description: The player travels east through the forest. || Trigger: N/A || Target: N/A || Requires: N/A || Blocking: F || Branch: N/A\n\nL01E-127 || SA || Name: Wolf crosses path || Description: A single wolf crosses the player's view at a distance, following a predefined path. It ignores Tracey. Because she is barefoot, she cannot catch it. || Trigger: N/A || Target: N/A || Condition: N/A || Blocking: F || Branch: N/A\nL01E-128 || SFX || Name: Distant wolf calls || Descripti"
+      }
+    ],
+    "output": "The forest road, walking east, barefoot. Something crosses the path ahead of her \u2014 a wolf, at distance, which ignores her completely. The fear here is new and she has no vocabulary for it yet. These are three small sounds, not speeches."
+  },
+  {
+    "purpose": "stage:6",
+    "query": "scene 6 THE EMPTY GLADE",
+    "retrieved": [
+      {
+        "id": "L01#S06",
+        "section": "Scene 06 \u2014 THE EMPTY GLADE",
+        "score": 4.544,
+        "matched_terms": [
+          "empty",
+          "glade",
+          "scene"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-145 || PA || Name: Enter the Glade || Description: The player enters the Glade. || Trigger: N/A || Target: N/A || Requires: N/A || Blocking: F || Branch: N/A\nL01E-146 || SA || Name: Stage abandoned Glade || Description: Stage the Glade as abandoned: belongings are scattered across the ground, the bonfire is extinguished, and the sleeping bags are in disarray. A pickaxe is embedded in the telescope frame. Tracey's boots lie near the bonfire. Near a table are a beer, a soda, and a Polaroid photograph of the g"
+      },
+      {
+        "id": "GDD#019",
+        "section": "LOCATIONS",
+        "score": 4.197,
+        "matched_terms": [
+          "glade",
+          "scene"
+        ],
+        "excerpt": "Location                                                                                   Where it appears in the\n                                                                                                                     script\n\n                          Camping site                                                                               Scenes 01\u201304\n                          The RV, two tents, William's locked tent, the bonfire, the table with the\n                          canteen, and two coolers. Everything the player learns in the first ten\n                          minute"
+      },
+      {
+        "id": "L01#S05",
+        "section": "Scene 05 \u2014 THE FOREST ROAD TO THE GLADE",
+        "score": 3.492,
+        "matched_terms": [
+          "glade",
+          "scene"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-126 || PA || Name: Travel east || Description: The player travels east through the forest. || Trigger: N/A || Target: N/A || Requires: N/A || Blocking: F || Branch: N/A\n\nL01E-127 || SA || Name: Wolf crosses path || Description: A single wolf crosses the player's view at a distance, following a predefined path. It ignores Tracey. Because she is barefoot, she cannot catch it. || Trigger: N/A || Target: N/A || Condition: N/A || Blocking: F || Branch: N/A\nL01E-128 || SFX || Name: Distant wolf calls || Descripti"
+      }
+    ],
+    "output": "The Glade, where her friends were supposed to be. Their belongings are scattered, the bonfire is long dead, the sleeping bags are empty. This is where the level turns and where the actor's job changes. Tracey's defences are verbal, and here they stop working. She calls out, gets "
+  },
+  {
+    "purpose": "stage:7",
+    "query": "scene 7 THE ROAD TO VERNON'S CABIN",
+    "retrieved": [
+      {
+        "id": "L01#S07",
+        "section": "Scene 07 \u2014 THE ROAD TO VERNON'S CABIN",
+        "score": 7.721,
+        "matched_terms": [
+          "cabin",
+          "road",
+          "scene",
+          "vernon's"
+        ],
+        "excerpt": "============================================================================= -->\n\nL01E-174 || PA || Name: Follow route to cabin || Description: The player follows the route toward the cabin. || Trigger: N/A || Target: N/A || Requires: N/A || Blocking: F || Branch: N/A\nL01E-175 || SA || Name: Place bear trap || Description: Place a bear trap on the path. The first trap cannot kill Tracey, but it removes a large amount of health and stamina. || Trigger: N/A || Target: N/A || Condition: N/A || Blocking: F || Branch: N/A\nL01E-176 || OL || Name: Branch A: zealot ambush || Description: BRANCH A: If"
+      },
+      {
+        "id": "GDD#020",
+        "section": "LOCATIONS",
+        "score": 7.124,
+        "matched_terms": [
+          "cabin",
+          "scene",
+          "vernon's"
+        ],
+        "excerpt": "and a light in the distance.\n\n                    Vernon's cabin                                                                    Scenes 07\u201308\n                    More of a box than a cabin, warm inside, door covered in crosses. Holly\n                    and Vernon are here. It is the only safe room in the level.\n\n\n\n\n                    Flak tower                                                                        Scene 08\n                    Visible in the distance. Cannot be entered. If the player walks toward it the\n                    game communicates that it is full of cultists and "
+      },
+      {
+        "id": "GDD#013",
+        "section": "AT T HE CABIN",
+        "score": 6.371,
+        "matched_terms": [
+          "cabin",
+          "vernon's"
+        ],
+        "excerpt": "Miss Perfect, and exhausting about it. She is at Vernon's cabin when Tracey arrives, and she is the one who\n                       hands over the marijuana.\n\n\n\n\n                       Scott"
+      }
+    ],
+    "output": "The road to the cabin, after violence. She has killed someone and she is not equipped for that. One line, quiet, entirely unlike the rest of her register."
+  },
+  {
+    "purpose": "stage:8",
+    "query": "scene 8 VERNON'S CABIN",
+    "retrieved": [
+      {
+        "id": "GDD#020",
+        "section": "LOCATIONS",
+        "score": 7.124,
+        "matched_terms": [
+          "cabin",
+          "scene",
+          "vernon's"
+        ],
+        "excerpt": "and a light in the distance.\n\n                    Vernon's cabin                                                                    Scenes 07\u201308\n                    More of a box than a cabin, warm inside, door covered in crosses. Holly\n                    and Vernon are here. It is the only safe room in the level.\n\n\n\n\n                    Flak tower                                                                        Scene 08\n                    Visible in the distance. Cannot be entered. If the player walks toward it the\n                    game communicates that it is full of cultists and "
+      },
+      {
+        "id": "GDD#013",
+        "section": "AT T HE CABIN",
+        "score": 6.371,
+        "matched_terms": [
+          "cabin",
+          "vernon's"
+        ],
+        "excerpt": "Miss Perfect, and exhausting about it. She is at Vernon's cabin when Tracey arrives, and she is the one who\n                       hands over the marijuana.\n\n\n\n\n                       Scott"
+      },
+      {
+        "id": "GDD#018",
+        "section": "THE ROUTE",
+        "score": 5.496,
+        "matched_terms": [
+          "cabin",
+          "vernon's"
+        ],
+        "excerpt": "The player moves east from the campsite to the Glade, then to Vernon's cabin, then into the mine, then north to the\nchurch. There are no optional areas and no backtracking. The only branch in the level is at the bear trap, and it\nchanges which enemy the player meets, not where they go."
+      }
+    ],
+    "output": "Vernon's cabin. Crosses nailed over every inch of the door, firelight inside, the first warmth in the level. Holly is alive. Vernon is a sick hermit with tuberculosis who knows more than he says and is running out of time to say it. Scott comes through on the radio. This is the b"
+  },
+  {
+    "purpose": "props:1",
+    "query": "scene 1 location environment props art style low poly",
+    "retrieved": [
+      {
+        "id": "GDD#023",
+        "section": "ART STYLE",
+        "score": 13.818,
+        "matched_terms": [
+          "art",
+          "low",
+          "poly",
+          "style"
+        ],
+        "excerpt": "Low-poly 3D in the manner of the fifth console generation. Simple models with well-defined silhouettes, because\nsilhouette is the only thing the player can read in the dark. Textures are pixelated, produced with Pixel8r and\nSubstance Painter. The palette stays cold: green, grey and brown, high contrast, very little warm light except firelight.\nUI is minimal and text-light, in a high-contrast punk and grunge register. Subtitles are plain white lines, exactly as in\nSilent Hill 1.\n\n\n\n\n    Firelight against cold ambient \u2014 the only warm source in the level.           Silhouette over detail. A cabin"
+      },
+      {
+        "id": "GDD#051",
+        "section": "CRITICAL FEATURES",
+        "score": 9.057,
+        "matched_terms": [
+          "art",
+          "environment",
+          "scene"
+        ],
+        "excerpt": "Everything needed to build the slice, with the intended method in brackets. Where an owned asset can do the job, it\ndoes the job.\n\nA. Environment and level art\n Feature or asset                                                    How it gets built\n\n Day 1 terrain, one fixed route                                      Hand-sculpted Unity Terrain. Borrow the biome textures and scatter\n                                                                     brushes from the terrain package; do not run the generator\n\n Trees, grass, rocks, soil textures                                  Terrain package as"
+      },
+      {
+        "id": "GDD#052",
+        "section": "CRITICAL FEATURES",
+        "score": 7.876,
+        "matched_terms": [
+          "art",
+          "low",
+          "scene"
+        ],
+        "excerpt": "Flak tower, distance silhouette only                                Blender, low detail, far LOD\n\n Church exterior and entrance                                        Blender\n\n Hill of Crosses, Virgin Mary statue                                 Blender, kitbashed from one cross mesh\n\n Lighting sets: morning, dusk, night                                 Baked lightmaps, one per scene, hand-authored\n\n\nB. Characters and creatures\n Feature or asset                                                    How it gets built\n\n Tracey first-person rig \u2014 arms and hands only                       FPS asset rig"
+      },
+      {
+        "id": "GDD#053",
+        "section": "CRITICAL FEATURES",
+        "score": 7.41,
+        "matched_terms": [
+          "location",
+          "props"
+        ],
+        "excerpt": "Eighteen first-person hand animations required by the script        GoPro POV footage through DeepMotion or QuickMagic, cleaned in\n                                                                     Blender\n\n\n\n\n\n\n\n\n Feature or asset                                                               How it gets built\n\n Enemy animation sets, one per state, four enemies                              Mixamo, retargeted\n\n NPC idle and talk for Holly and Vernon; Scott unconscious                      Mixamo\n\n Animation event blockers, player and enemy                                     Systems Smith age"
+      }
+    ],
+    "output": "Two-person canvas tent, period, Sleeping bag, unzipped, Seiko wristwatch with alarm, Canteen, aluminium, Blue cooler"
+  },
+  {
+    "purpose": "props:2",
+    "query": "scene 2 location environment props art style low poly",
+    "retrieved": [
+      {
+        "id": "GDD#023",
+        "section": "ART STYLE",
+        "score": 13.818,
+        "matched_terms": [
+          "art",
+          "low",
+          "poly",
+          "style"
+        ],
+        "excerpt": "Low-poly 3D in the manner of the fifth console generation. Simple models with well-defined silhouettes, because\nsilhouette is the only thing the player can read in the dark. Textures are pixelated, produced with Pixel8r and\nSubstance Painter. The palette stays cold: green, grey and brown, high contrast, very little warm light except firelight.\nUI is minimal and text-light, in a high-contrast punk and grunge register. Subtitles are plain white lines, exactly as in\nSilent Hill 1.\n\n\n\n\n    Firelight against cold ambient \u2014 the only warm source in the level.           Silhouette over detail. A cabin"
+      },
+      {
+        "id": "GDD#051",
+        "section": "CRITICAL FEATURES",
+        "score": 9.057,
+        "matched_terms": [
+          "art",
+          "environment",
+          "scene"
+        ],
+        "excerpt": "Everything needed to build the slice, with the intended method in brackets. Where an owned asset can do the job, it\ndoes the job.\n\nA. Environment and level art\n Feature or asset                                                    How it gets built\n\n Day 1 terrain, one fixed route                                      Hand-sculpted Unity Terrain. Borrow the biome textures and scatter\n                                                                     brushes from the terrain package; do not run the generator\n\n Trees, grass, rocks, soil textures                                  Terrain package as"
+      },
+      {
+        "id": "GDD#052",
+        "section": "CRITICAL FEATURES",
+        "score": 7.876,
+        "matched_terms": [
+          "art",
+          "low",
+          "scene"
+        ],
+        "excerpt": "Flak tower, distance silhouette only                                Blender, low detail, far LOD\n\n Church exterior and entrance                                        Blender\n\n Hill of Crosses, Virgin Mary statue                                 Blender, kitbashed from one cross mesh\n\n Lighting sets: morning, dusk, night                                 Baked lightmaps, one per scene, hand-authored\n\n\nB. Characters and creatures\n Feature or asset                                                    How it gets built\n\n Tracey first-person rig \u2014 arms and hands only                       FPS asset rig"
+      },
+      {
+        "id": "GDD#053",
+        "section": "CRITICAL FEATURES",
+        "score": 7.41,
+        "matched_terms": [
+          "location",
+          "props"
+        ],
+        "excerpt": "Eighteen first-person hand animations required by the script        GoPro POV footage through DeepMotion or QuickMagic, cleaned in\n                                                                     Blender\n\n\n\n\n\n\n\n\n Feature or asset                                                               How it gets built\n\n Enemy animation sets, one per state, four enemies                              Mixamo, retargeted\n\n NPC idle and talk for Holly and Vernon; Scott unconscious                      Mixamo\n\n Animation event blockers, player and enemy                                     Systems Smith age"
+      }
+    ],
+    "output": "Hiking boots, Tracey's, Wet wool socks, Muddy ground, footprint decals, Tent flap, animated, Clothes line with hanging laundry"
+  },
+  {
+    "purpose": "props:3",
+    "query": "scene 3 location environment props art style low poly",
+    "retrieved": [
+      {
+        "id": "GDD#023",
+        "section": "ART STYLE",
+        "score": 13.818,
+        "matched_terms": [
+          "art",
+          "low",
+          "poly",
+          "style"
+        ],
+        "excerpt": "Low-poly 3D in the manner of the fifth console generation. Simple models with well-defined silhouettes, because\nsilhouette is the only thing the player can read in the dark. Textures are pixelated, produced with Pixel8r and\nSubstance Painter. The palette stays cold: green, grey and brown, high contrast, very little warm light except firelight.\nUI is minimal and text-light, in a high-contrast punk and grunge register. Subtitles are plain white lines, exactly as in\nSilent Hill 1.\n\n\n\n\n    Firelight against cold ambient \u2014 the only warm source in the level.           Silhouette over detail. A cabin"
+      },
+      {
+        "id": "GDD#051",
+        "section": "CRITICAL FEATURES",
+        "score": 9.057,
+        "matched_terms": [
+          "art",
+          "environment",
+          "scene"
+        ],
+        "excerpt": "Everything needed to build the slice, with the intended method in brackets. Where an owned asset can do the job, it\ndoes the job.\n\nA. Environment and level art\n Feature or asset                                                    How it gets built\n\n Day 1 terrain, one fixed route                                      Hand-sculpted Unity Terrain. Borrow the biome textures and scatter\n                                                                     brushes from the terrain package; do not run the generator\n\n Trees, grass, rocks, soil textures                                  Terrain package as"
+      },
+      {
+        "id": "GDD#052",
+        "section": "CRITICAL FEATURES",
+        "score": 7.876,
+        "matched_terms": [
+          "art",
+          "low",
+          "scene"
+        ],
+        "excerpt": "Flak tower, distance silhouette only                                Blender, low detail, far LOD\n\n Church exterior and entrance                                        Blender\n\n Hill of Crosses, Virgin Mary statue                                 Blender, kitbashed from one cross mesh\n\n Lighting sets: morning, dusk, night                                 Baked lightmaps, one per scene, hand-authored\n\n\nB. Characters and creatures\n Feature or asset                                                    How it gets built\n\n Tracey first-person rig \u2014 arms and hands only                       FPS asset rig"
+      },
+      {
+        "id": "GDD#053",
+        "section": "CRITICAL FEATURES",
+        "score": 7.41,
+        "matched_terms": [
+          "location",
+          "props"
+        ],
+        "excerpt": "Eighteen first-person hand animations required by the script        GoPro POV footage through DeepMotion or QuickMagic, cleaned in\n                                                                     Blender\n\n\n\n\n\n\n\n\n Feature or asset                                                               How it gets built\n\n Enemy animation sets, one per state, four enemies                              Mixamo, retargeted\n\n NPC idle and talk for Holly and Vernon; Scott unconscious                      Mixamo\n\n Animation event blockers, player and enemy                                     Systems Smith age"
+      }
+    ],
+    "output": "Walkie talkie handset, RV interior rug, Tent key, small brass, Camp table, folding, Soda can, period"
+  },
+  {
+    "purpose": "props:4",
+    "query": "scene 4 location environment props art style low poly",
+    "retrieved": [
+      {
+        "id": "GDD#023",
+        "section": "ART STYLE",
+        "score": 13.818,
+        "matched_terms": [
+          "art",
+          "low",
+          "poly",
+          "style"
+        ],
+        "excerpt": "Low-poly 3D in the manner of the fifth console generation. Simple models with well-defined silhouettes, because\nsilhouette is the only thing the player can read in the dark. Textures are pixelated, produced with Pixel8r and\nSubstance Painter. The palette stays cold: green, grey and brown, high contrast, very little warm light except firelight.\nUI is minimal and text-light, in a high-contrast punk and grunge register. Subtitles are plain white lines, exactly as in\nSilent Hill 1.\n\n\n\n\n    Firelight against cold ambient \u2014 the only warm source in the level.           Silhouette over detail. A cabin"
+      },
+      {
+        "id": "GDD#051",
+        "section": "CRITICAL FEATURES",
+        "score": 9.057,
+        "matched_terms": [
+          "art",
+          "environment",
+          "scene"
+        ],
+        "excerpt": "Everything needed to build the slice, with the intended method in brackets. Where an owned asset can do the job, it\ndoes the job.\n\nA. Environment and level art\n Feature or asset                                                    How it gets built\n\n Day 1 terrain, one fixed route                                      Hand-sculpted Unity Terrain. Borrow the biome textures and scatter\n                                                                     brushes from the terrain package; do not run the generator\n\n Trees, grass, rocks, soil textures                                  Terrain package as"
+      },
+      {
+        "id": "GDD#052",
+        "section": "CRITICAL FEATURES",
+        "score": 7.876,
+        "matched_terms": [
+          "art",
+          "low",
+          "scene"
+        ],
+        "excerpt": "Flak tower, distance silhouette only                                Blender, low detail, far LOD\n\n Church exterior and entrance                                        Blender\n\n Hill of Crosses, Virgin Mary statue                                 Blender, kitbashed from one cross mesh\n\n Lighting sets: morning, dusk, night                                 Baked lightmaps, one per scene, hand-authored\n\n\nB. Characters and creatures\n Feature or asset                                                    How it gets built\n\n Tracey first-person rig \u2014 arms and hands only                       FPS asset rig"
+      },
+      {
+        "id": "GDD#053",
+        "section": "CRITICAL FEATURES",
+        "score": 7.41,
+        "matched_terms": [
+          "location",
+          "props"
+        ],
+        "excerpt": "Eighteen first-person hand animations required by the script        GoPro POV footage through DeepMotion or QuickMagic, cleaned in\n                                                                     Blender\n\n\n\n\n\n\n\n\n Feature or asset                                                               How it gets built\n\n Enemy animation sets, one per state, four enemies                              Mixamo, retargeted\n\n NPC idle and talk for Holly and Vernon; Scott unconscious                      Mixamo\n\n Animation event blockers, player and enemy                                     Systems Smith age"
+      }
+    ],
+    "output": "William's tent, exterior and interior, Padlock, broken, Compass, brass, period, Paper map, folded and unfolded, Neck pouch, canvas"
+  },
+  {
+    "purpose": "props:5",
+    "query": "scene 5 location environment props art style low poly",
+    "retrieved": [
+      {
+        "id": "GDD#023",
+        "section": "ART STYLE",
+        "score": 13.818,
+        "matched_terms": [
+          "art",
+          "low",
+          "poly",
+          "style"
+        ],
+        "excerpt": "Low-poly 3D in the manner of the fifth console generation. Simple models with well-defined silhouettes, because\nsilhouette is the only thing the player can read in the dark. Textures are pixelated, produced with Pixel8r and\nSubstance Painter. The palette stays cold: green, grey and brown, high contrast, very little warm light except firelight.\nUI is minimal and text-light, in a high-contrast punk and grunge register. Subtitles are plain white lines, exactly as in\nSilent Hill 1.\n\n\n\n\n    Firelight against cold ambient \u2014 the only warm source in the level.           Silhouette over detail. A cabin"
+      },
+      {
+        "id": "GDD#051",
+        "section": "CRITICAL FEATURES",
+        "score": 9.057,
+        "matched_terms": [
+          "art",
+          "environment",
+          "scene"
+        ],
+        "excerpt": "Everything needed to build the slice, with the intended method in brackets. Where an owned asset can do the job, it\ndoes the job.\n\nA. Environment and level art\n Feature or asset                                                    How it gets built\n\n Day 1 terrain, one fixed route                                      Hand-sculpted Unity Terrain. Borrow the biome textures and scatter\n                                                                     brushes from the terrain package; do not run the generator\n\n Trees, grass, rocks, soil textures                                  Terrain package as"
+      },
+      {
+        "id": "GDD#052",
+        "section": "CRITICAL FEATURES",
+        "score": 7.876,
+        "matched_terms": [
+          "art",
+          "low",
+          "scene"
+        ],
+        "excerpt": "Flak tower, distance silhouette only                                Blender, low detail, far LOD\n\n Church exterior and entrance                                        Blender\n\n Hill of Crosses, Virgin Mary statue                                 Blender, kitbashed from one cross mesh\n\n Lighting sets: morning, dusk, night                                 Baked lightmaps, one per scene, hand-authored\n\n\nB. Characters and creatures\n Feature or asset                                                    How it gets built\n\n Tracey first-person rig \u2014 arms and hands only                       FPS asset rig"
+      },
+      {
+        "id": "GDD#053",
+        "section": "CRITICAL FEATURES",
+        "score": 7.41,
+        "matched_terms": [
+          "location",
+          "props"
+        ],
+        "excerpt": "Eighteen first-person hand animations required by the script        GoPro POV footage through DeepMotion or QuickMagic, cleaned in\n                                                                     Blender\n\n\n\n\n\n\n\n\n Feature or asset                                                               How it gets built\n\n Enemy animation sets, one per state, four enemies                              Mixamo, retargeted\n\n NPC idle and talk for Holly and Vernon; Scott unconscious                      Mixamo\n\n Animation event blockers, player and enemy                                     Systems Smith age"
+      }
+    ],
+    "output": "Forest road, dirt path mesh, Wolf, Fog volume and particles, Undergrowth and fern cards, Fallen log, mossy"
+  },
+  {
+    "purpose": "props:6",
+    "query": "scene 6 location environment props art style low poly",
+    "retrieved": [
+      {
+        "id": "GDD#023",
+        "section": "ART STYLE",
+        "score": 13.818,
+        "matched_terms": [
+          "art",
+          "low",
+          "poly",
+          "style"
+        ],
+        "excerpt": "Low-poly 3D in the manner of the fifth console generation. Simple models with well-defined silhouettes, because\nsilhouette is the only thing the player can read in the dark. Textures are pixelated, produced with Pixel8r and\nSubstance Painter. The palette stays cold: green, grey and brown, high contrast, very little warm light except firelight.\nUI is minimal and text-light, in a high-contrast punk and grunge register. Subtitles are plain white lines, exactly as in\nSilent Hill 1.\n\n\n\n\n    Firelight against cold ambient \u2014 the only warm source in the level.           Silhouette over detail. A cabin"
+      },
+      {
+        "id": "GDD#051",
+        "section": "CRITICAL FEATURES",
+        "score": 9.057,
+        "matched_terms": [
+          "art",
+          "environment",
+          "scene"
+        ],
+        "excerpt": "Everything needed to build the slice, with the intended method in brackets. Where an owned asset can do the job, it\ndoes the job.\n\nA. Environment and level art\n Feature or asset                                                    How it gets built\n\n Day 1 terrain, one fixed route                                      Hand-sculpted Unity Terrain. Borrow the biome textures and scatter\n                                                                     brushes from the terrain package; do not run the generator\n\n Trees, grass, rocks, soil textures                                  Terrain package as"
+      },
+      {
+        "id": "GDD#052",
+        "section": "CRITICAL FEATURES",
+        "score": 7.876,
+        "matched_terms": [
+          "art",
+          "low",
+          "scene"
+        ],
+        "excerpt": "Flak tower, distance silhouette only                                Blender, low detail, far LOD\n\n Church exterior and entrance                                        Blender\n\n Hill of Crosses, Virgin Mary statue                                 Blender, kitbashed from one cross mesh\n\n Lighting sets: morning, dusk, night                                 Baked lightmaps, one per scene, hand-authored\n\n\nB. Characters and creatures\n Feature or asset                                                    How it gets built\n\n Tracey first-person rig \u2014 arms and hands only                       FPS asset rig"
+      },
+      {
+        "id": "GDD#053",
+        "section": "CRITICAL FEATURES",
+        "score": 7.41,
+        "matched_terms": [
+          "location",
+          "props"
+        ],
+        "excerpt": "Eighteen first-person hand animations required by the script        GoPro POV footage through DeepMotion or QuickMagic, cleaned in\n                                                                     Blender\n\n\n\n\n\n\n\n\n Feature or asset                                                               How it gets built\n\n Enemy animation sets, one per state, four enemies                              Mixamo, retargeted\n\n NPC idle and talk for Holly and Vernon; Scott unconscious                      Mixamo\n\n Animation event blockers, player and enemy                                     Systems Smith age"
+      }
+    ],
+    "output": "Telescope on tripod, Pickaxe, Polaroid photograph of the group, Sleeping bags, empty and disarrayed, Scattered belongings kit"
+  },
+  {
+    "purpose": "props:7",
+    "query": "scene 7 location environment props art style low poly",
+    "retrieved": [
+      {
+        "id": "GDD#023",
+        "section": "ART STYLE",
+        "score": 13.818,
+        "matched_terms": [
+          "art",
+          "low",
+          "poly",
+          "style"
+        ],
+        "excerpt": "Low-poly 3D in the manner of the fifth console generation. Simple models with well-defined silhouettes, because\nsilhouette is the only thing the player can read in the dark. Textures are pixelated, produced with Pixel8r and\nSubstance Painter. The palette stays cold: green, grey and brown, high contrast, very little warm light except firelight.\nUI is minimal and text-light, in a high-contrast punk and grunge register. Subtitles are plain white lines, exactly as in\nSilent Hill 1.\n\n\n\n\n    Firelight against cold ambient \u2014 the only warm source in the level.           Silhouette over detail. A cabin"
+      },
+      {
+        "id": "GDD#051",
+        "section": "CRITICAL FEATURES",
+        "score": 9.057,
+        "matched_terms": [
+          "art",
+          "environment",
+          "scene"
+        ],
+        "excerpt": "Everything needed to build the slice, with the intended method in brackets. Where an owned asset can do the job, it\ndoes the job.\n\nA. Environment and level art\n Feature or asset                                                    How it gets built\n\n Day 1 terrain, one fixed route                                      Hand-sculpted Unity Terrain. Borrow the biome textures and scatter\n                                                                     brushes from the terrain package; do not run the generator\n\n Trees, grass, rocks, soil textures                                  Terrain package as"
+      },
+      {
+        "id": "GDD#052",
+        "section": "CRITICAL FEATURES",
+        "score": 7.876,
+        "matched_terms": [
+          "art",
+          "low",
+          "scene"
+        ],
+        "excerpt": "Flak tower, distance silhouette only                                Blender, low detail, far LOD\n\n Church exterior and entrance                                        Blender\n\n Hill of Crosses, Virgin Mary statue                                 Blender, kitbashed from one cross mesh\n\n Lighting sets: morning, dusk, night                                 Baked lightmaps, one per scene, hand-authored\n\n\nB. Characters and creatures\n Feature or asset                                                    How it gets built\n\n Tracey first-person rig \u2014 arms and hands only                       FPS asset rig"
+      },
+      {
+        "id": "GDD#053",
+        "section": "CRITICAL FEATURES",
+        "score": 7.41,
+        "matched_terms": [
+          "location",
+          "props"
+        ],
+        "excerpt": "Eighteen first-person hand animations required by the script        GoPro POV footage through DeepMotion or QuickMagic, cleaned in\n                                                                     Blender\n\n\n\n\n\n\n\n\n Feature or asset                                                               How it gets built\n\n Enemy animation sets, one per state, four enemies                              Mixamo, retargeted\n\n NPC idle and talk for Holly and Vernon; Scott unconscious                      Mixamo\n\n Animation event blockers, player and enemy                                     Systems Smith age"
+      }
+    ],
+    "output": "Bear trap, open and sprung, Cultist Zealot, Cultist Spotter with lamp, Handheld oil lamp, lit, Knife and scythe"
+  },
+  {
+    "purpose": "props:8",
+    "query": "scene 8 location environment props art style low poly",
+    "retrieved": [
+      {
+        "id": "GDD#023",
+        "section": "ART STYLE",
+        "score": 13.818,
+        "matched_terms": [
+          "art",
+          "low",
+          "poly",
+          "style"
+        ],
+        "excerpt": "Low-poly 3D in the manner of the fifth console generation. Simple models with well-defined silhouettes, because\nsilhouette is the only thing the player can read in the dark. Textures are pixelated, produced with Pixel8r and\nSubstance Painter. The palette stays cold: green, grey and brown, high contrast, very little warm light except firelight.\nUI is minimal and text-light, in a high-contrast punk and grunge register. Subtitles are plain white lines, exactly as in\nSilent Hill 1.\n\n\n\n\n    Firelight against cold ambient \u2014 the only warm source in the level.           Silhouette over detail. A cabin"
+      },
+      {
+        "id": "GDD#051",
+        "section": "CRITICAL FEATURES",
+        "score": 9.057,
+        "matched_terms": [
+          "art",
+          "environment",
+          "scene"
+        ],
+        "excerpt": "Everything needed to build the slice, with the intended method in brackets. Where an owned asset can do the job, it\ndoes the job.\n\nA. Environment and level art\n Feature or asset                                                    How it gets built\n\n Day 1 terrain, one fixed route                                      Hand-sculpted Unity Terrain. Borrow the biome textures and scatter\n                                                                     brushes from the terrain package; do not run the generator\n\n Trees, grass, rocks, soil textures                                  Terrain package as"
+      },
+      {
+        "id": "GDD#052",
+        "section": "CRITICAL FEATURES",
+        "score": 7.876,
+        "matched_terms": [
+          "art",
+          "low",
+          "scene"
+        ],
+        "excerpt": "Flak tower, distance silhouette only                                Blender, low detail, far LOD\n\n Church exterior and entrance                                        Blender\n\n Hill of Crosses, Virgin Mary statue                                 Blender, kitbashed from one cross mesh\n\n Lighting sets: morning, dusk, night                                 Baked lightmaps, one per scene, hand-authored\n\n\nB. Characters and creatures\n Feature or asset                                                    How it gets built\n\n Tracey first-person rig \u2014 arms and hands only                       FPS asset rig"
+      },
+      {
+        "id": "GDD#053",
+        "section": "CRITICAL FEATURES",
+        "score": 7.41,
+        "matched_terms": [
+          "location",
+          "props"
+        ],
+        "excerpt": "Eighteen first-person hand animations required by the script        GoPro POV footage through DeepMotion or QuickMagic, cleaned in\n                                                                     Blender\n\n\n\n\n\n\n\n\n Feature or asset                                                               How it gets built\n\n Enemy animation sets, one per state, four enemies                              Mixamo, retargeted\n\n NPC idle and talk for Holly and Vernon; Scott unconscious                      Mixamo\n\n Animation event blockers, player and enemy                                     Systems Smith age"
+      }
+    ],
+    "output": "Vernon's cabin interior, Fireplace with live fire, M1911 pistol, Morphine syrettes in a tin, Marijuana, rolled"
+  },
+  {
+    "purpose": "props:9",
+    "query": "scene 9 location environment props art style low poly",
+    "retrieved": [
+      {
+        "id": "GDD#023",
+        "section": "ART STYLE",
+        "score": 13.818,
+        "matched_terms": [
+          "art",
+          "low",
+          "poly",
+          "style"
+        ],
+        "excerpt": "Low-poly 3D in the manner of the fifth console generation. Simple models with well-defined silhouettes, because\nsilhouette is the only thing the player can read in the dark. Textures are pixelated, produced with Pixel8r and\nSubstance Painter. The palette stays cold: green, grey and brown, high contrast, very little warm light except firelight.\nUI is minimal and text-light, in a high-contrast punk and grunge register. Subtitles are plain white lines, exactly as in\nSilent Hill 1.\n\n\n\n\n    Firelight against cold ambient \u2014 the only warm source in the level.           Silhouette over detail. A cabin"
+      },
+      {
+        "id": "GDD#051",
+        "section": "CRITICAL FEATURES",
+        "score": 9.057,
+        "matched_terms": [
+          "art",
+          "environment",
+          "scene"
+        ],
+        "excerpt": "Everything needed to build the slice, with the intended method in brackets. Where an owned asset can do the job, it\ndoes the job.\n\nA. Environment and level art\n Feature or asset                                                    How it gets built\n\n Day 1 terrain, one fixed route                                      Hand-sculpted Unity Terrain. Borrow the biome textures and scatter\n                                                                     brushes from the terrain package; do not run the generator\n\n Trees, grass, rocks, soil textures                                  Terrain package as"
+      },
+      {
+        "id": "GDD#052",
+        "section": "CRITICAL FEATURES",
+        "score": 7.876,
+        "matched_terms": [
+          "art",
+          "low",
+          "scene"
+        ],
+        "excerpt": "Flak tower, distance silhouette only                                Blender, low detail, far LOD\n\n Church exterior and entrance                                        Blender\n\n Hill of Crosses, Virgin Mary statue                                 Blender, kitbashed from one cross mesh\n\n Lighting sets: morning, dusk, night                                 Baked lightmaps, one per scene, hand-authored\n\n\nB. Characters and creatures\n Feature or asset                                                    How it gets built\n\n Tracey first-person rig \u2014 arms and hands only                       FPS asset rig"
+      },
+      {
+        "id": "GDD#053",
+        "section": "CRITICAL FEATURES",
+        "score": 7.41,
+        "matched_terms": [
+          "location",
+          "props"
+        ],
+        "excerpt": "Eighteen first-person hand animations required by the script        GoPro POV footage through DeepMotion or QuickMagic, cleaned in\n                                                                     Blender\n\n\n\n\n\n\n\n\n Feature or asset                                                               How it gets built\n\n Enemy animation sets, one per state, four enemies                              Mixamo, retargeted\n\n NPC idle and talk for Holly and Vernon; Scott unconscious                      Mixamo\n\n Animation event blockers, player and enemy                                     Systems Smith age"
+      }
+    ],
+    "output": "Mine entrance and headframe, Mine interior tunnel kit, Mining lamp, handheld, Infirmary room dressing, Stretcher, canvas and wood"
+  },
+  {
+    "purpose": "props:10",
+    "query": "scene 10 location environment props art style low poly",
+    "retrieved": [
+      {
+        "id": "GDD#023",
+        "section": "ART STYLE",
+        "score": 13.818,
+        "matched_terms": [
+          "art",
+          "low",
+          "poly",
+          "style"
+        ],
+        "excerpt": "Low-poly 3D in the manner of the fifth console generation. Simple models with well-defined silhouettes, because\nsilhouette is the only thing the player can read in the dark. Textures are pixelated, produced with Pixel8r and\nSubstance Painter. The palette stays cold: green, grey and brown, high contrast, very little warm light except firelight.\nUI is minimal and text-light, in a high-contrast punk and grunge register. Subtitles are plain white lines, exactly as in\nSilent Hill 1.\n\n\n\n\n    Firelight against cold ambient \u2014 the only warm source in the level.           Silhouette over detail. A cabin"
+      },
+      {
+        "id": "GDD#051",
+        "section": "CRITICAL FEATURES",
+        "score": 9.057,
+        "matched_terms": [
+          "art",
+          "environment",
+          "scene"
+        ],
+        "excerpt": "Everything needed to build the slice, with the intended method in brackets. Where an owned asset can do the job, it\ndoes the job.\n\nA. Environment and level art\n Feature or asset                                                    How it gets built\n\n Day 1 terrain, one fixed route                                      Hand-sculpted Unity Terrain. Borrow the biome textures and scatter\n                                                                     brushes from the terrain package; do not run the generator\n\n Trees, grass, rocks, soil textures                                  Terrain package as"
+      },
+      {
+        "id": "GDD#052",
+        "section": "CRITICAL FEATURES",
+        "score": 7.876,
+        "matched_terms": [
+          "art",
+          "low",
+          "scene"
+        ],
+        "excerpt": "Flak tower, distance silhouette only                                Blender, low detail, far LOD\n\n Church exterior and entrance                                        Blender\n\n Hill of Crosses, Virgin Mary statue                                 Blender, kitbashed from one cross mesh\n\n Lighting sets: morning, dusk, night                                 Baked lightmaps, one per scene, hand-authored\n\n\nB. Characters and creatures\n Feature or asset                                                    How it gets built\n\n Tracey first-person rig \u2014 arms and hands only                       FPS asset rig"
+      },
+      {
+        "id": "GDD#053",
+        "section": "CRITICAL FEATURES",
+        "score": 7.41,
+        "matched_terms": [
+          "location",
+          "props"
+        ],
+        "excerpt": "Eighteen first-person hand animations required by the script        GoPro POV footage through DeepMotion or QuickMagic, cleaned in\n                                                                     Blender\n\n\n\n\n\n\n\n\n Feature or asset                                                               How it gets built\n\n Enemy animation sets, one per state, four enemies                              Mixamo, retargeted\n\n NPC idle and talk for Holly and Vernon; Scott unconscious                      Mixamo\n\n Animation event blockers, player and enemy                                     Systems Smith age"
+      }
+    ],
+    "output": "Hill of Crosses, Virgin Mary statue, Church exterior and entrance, Circle of fire, Night sky with North Star"
+  },
+  {
+    "purpose": "consistency",
+    "query": "Tracey character themes mental health art style 1978 cult",
+    "retrieved": [
+      {
+        "id": "GDD#002",
+        "section": "MATURE CONTENT",
+        "score": 20.747,
+        "matched_terms": [
+          "1978",
+          "art",
+          "health",
+          "mental",
+          "style",
+          "themes",
+          "tracey"
+        ],
+        "excerpt": "This is a work of fiction. Contains violence, substance abuse, mental-health themes, religious and blasphemous imagery,\nand strong language. Discretion advised.\n\n\n\n\n\n\n\n\n\n  INDEX\n\n\n(Click on the titles, they are hyperlinks to travel across the Document to the chapters and back to the index)\n\n\n\n 01      Executive Summary                      One pager, core loop, win and loss conditions, elevator pitch, comparable games, ship\n                                                dates.\n\n 02      Story                                  1978, Aanniarvik Island, Tracey, and how Day 1 begins.\n\n 03      Cas"
+      },
+      {
+        "id": "GDD#025",
+        "section": "THEMES",
+        "score": 19.358,
+        "matched_terms": [
+          "1978",
+          "character",
+          "health",
+          "mental",
+          "themes",
+          "tracey"
+        ],
+        "excerpt": "Theme                               How Day 1 handles it\n\n Substance abuse                     The player is not told Tracey is an addict. Day 1 opens on a hangover played for comedy, and ends\n                                     with Vernon handing her morphine and Holly handing her marijuana. Neither is explained. The system\n                                     underneath them arrives properly on Day 2.\n\n Religion                            Orthodox Christian imagery from the first Russian settlers of Alaska: crosses nailed to a cabin door, a\n                                     Virgin Mary "
+      },
+      {
+        "id": "GDD#009",
+        "section": "COMPARABLE GAMES",
+        "score": 6.283,
+        "matched_terms": [
+          "1978",
+          "cult"
+        ],
+        "excerpt": "Game                           What we take from it\n\nSlenderman: The Eight Pages    Being hunted in a dark forest while looking for scattered things.\n(2012)\n\nMisery (2025)                  A daily run against a hard clock, ending at a shelter.\n\nDusk (2018)                    Crude, violent low-poly shooting against a cult.\n\nThe Forest (2018)              Resource pressure and a hostile population in the woods.\n\nSilent Hill 1 (1999)           Plain white subtitle lines, and telling the story through them rather than around them.\n\n\nDATES\n\nMilestone                      Date\n\nVertical slice playa"
+      },
+      {
+        "id": "GDD#023",
+        "section": "ART STYLE",
+        "score": 6.264,
+        "matched_terms": [
+          "art",
+          "style"
+        ],
+        "excerpt": "Low-poly 3D in the manner of the fifth console generation. Simple models with well-defined silhouettes, because\nsilhouette is the only thing the player can read in the dark. Textures are pixelated, produced with Pixel8r and\nSubstance Painter. The palette stays cold: green, grey and brown, high contrast, very little warm light except firelight.\nUI is minimal and text-light, in a high-contrast punk and grunge register. Subtitles are plain white lines, exactly as in\nSilent Hill 1.\n\n\n\n\n    Firelight against cold ambient \u2014 the only warm source in the level.           Silhouette over detail. A cabin"
+      },
+      {
+        "id": "GDD#054",
+        "section": "CRITICAL FEATURES",
+        "score": 5.797,
+        "matched_terms": [
+          "health",
+          "style"
+        ],
+        "excerpt": "E. User interface\n Feature or asset                                                               How it gets built\n\n Subtitle renderer, Silent Hill 1 style, typewriter and immediate               Nani Novel, adapted for first-person use\n\n Stamina bar with reveal and hide                                               Systems Smith agent\n\n Health indicator                                                               Systems Smith agent\n\n Interaction prompt icon                                                        FPS asset UI, restyled\n\n Backpack screen with discard                          "
+      },
+      {
+        "id": "GDD#007",
+        "section": "ELEVATOR PITCH \u2014 THE FICTION",
+        "score": 5.782,
+        "matched_terms": [
+          "cult",
+          "tracey"
+        ],
+        "excerpt": "A group of friends, a weeklong camping trip, a remote Alaskan island. Trying to have one good last time together\nbefore the important adulthood changes arrive. Something goes wrong.\nYou are Tracey, a grumpy drug addict trying to save her kidnapped friends from a cult that will sacrifice them at the\nend of the week. There is something about the island: each night its terrain shifts into something deadly, and every\nnight it forces you to find shelter before three in the morning.\nDay 1 is where none of that is known yet. Tracey wakes up with a hangover and no boots, and spends a morning\nbeing ann"
+      }
+    ],
+    "output": "Four findings across the three outputs. One is a genuine contradiction between the project's own documents rather than a fault in the generated content, and it needs a design decision before voice recording can be scheduled."
+  }
+]

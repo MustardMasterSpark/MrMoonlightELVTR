@@ -1,0 +1,19 @@
+[18:12:07] START       Content Forge — backend=fixtures (quick)
+[18:12:07] INDEX       {"total_chunks": 73, "gdd_chunks": 62, "script_chunks": 11, "avg_chunk_chars": 1713}
+[18:12:07] DISPATCH    Voice writer — waking_hungover
+[18:12:07] DISPATCH    Voice writer — missing_boots
+[18:12:07] DISPATCH    Voice writer — rylee_radio
+[18:12:07] DISPATCH    Voice writer — inventory_full
+[18:12:07] EXTRACT     52 voiced lines across 3 scenes (deterministic)
+[18:12:07] DISPATCH    Stage director — scene 01
+[18:12:07] DISPATCH    Stage director — scene 02
+[18:12:07] DISPATCH    Stage director — scene 03
+[18:12:07] DISPATCH    Prop master — scene 01
+[18:12:07] DISPATCH    Prop master — scene 02
+[18:12:07] DISPATCH    Prop master — scene 03
+[18:12:07] DISPATCH    Consistency agent
+[18:12:07] CORRECTED   cross_document: 'Dry run line 1 for waking_hungover.' -> 'Dry run line 1 for waking_hungover, corrected'
+[18:12:07] CONSISTENCY 1 finding(s), 1 applied
+[18:12:07] DISPATCH    Voice judgment agent
+[18:12:07] VOICE       verdict=NEEDS_WORK — regenerating 'waking_hungover' with the proposed amendment
+[18:12:07] DISPATCH    Voice writer v2 — waking_hungover
